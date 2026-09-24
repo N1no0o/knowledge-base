@@ -1,0 +1,21 @@
+title: 知识库
+description: 个人知识库 · 纯 Markdown · Git 版本管理
+theme: minima
+
+exclude:
+  - tools/
+  - _inbox/
+  - _templates/
+  - _docs/
+  - AGENTS.md
+  - CLAUDE.md
+  - log.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: "notes"
+    values:
+      layout: default
