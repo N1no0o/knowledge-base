@@ -1,5 +1,145 @@
 [
   {
+    "title": "AWS 支持服务工具 · API 实测报告（2026-09-25）",
+    "path": "notes/business/AWS支持服务工具-API实测报告.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "API",
+      "实测",
+      "SubscriptionRequiredException",
+      "华为云支持服务立项"
+    ],
+    "status": "stable",
+    "updated": "2026-09-25",
+    "summary": "---"
+  },
+  {
+    "title": "AWS 支持服务工具 · AWS Health",
+    "path": "notes/business/AWS支持服务工具-AWS-Health.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "Health",
+      "HealthAPI",
+      "PHD",
+      "事件",
+      "组织视图",
+      "EventBridge"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "AWS Health 的事件（Event）用于告知服务与资源变更如何影响你的应用。"
+  },
+  {
+    "title": "AWS 支持服务工具 · IDR 与 AI 增强层",
+    "path": "notes/business/AWS支持服务工具-IDR与AI增强.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "IDR",
+      "EventBridge",
+      "IME",
+      "竞品",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "---"
+  },
+  {
+    "title": "AWS 支持服务工具 · SAW 与 Slack",
+    "path": "notes/business/AWS支持服务工具-SAW与Slack.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "SAW",
+      "自动化工作流",
+      "SystemsManager",
+      "Slack",
+      "Runbook"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": ""
+  },
+  {
+    "title": "AWS 支持服务工具 · Support API 与工单",
+    "path": "notes/business/AWS支持服务工具-Support-API与工单.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "SupportAPI",
+      "工单",
+      "Case",
+      "严重级别",
+      "附件"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "见 AWS支持服务工具-Trusted-Advisor。"
+  },
+  {
+    "title": "AWS 支持服务工具 · Trusted Advisor",
+    "path": "notes/business/AWS支持服务工具-Trusted-Advisor.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "TrustedAdvisor",
+      "检查项",
+      "最佳实践",
+      "Priority",
+      "API"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "Priority 是什么：由你的 AWS 账户团队提供的情境驱动、按优先级排序的建议 ——"
+  },
+  {
+    "title": "AWS 支持服务配套工具体系 · 手册总览",
+    "path": "notes/business/AWS支持服务工具-手册总览.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "工具",
+      "Trusted Advisor",
+      "Health",
+      "Support API",
+      "SAW",
+      "竞品"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "AWS 的支持服务不是「一个工单系统」，而是「数据层 + 服务层 + AI 层」三层叠加的工具体系 ——"
+  },
+  {
+    "title": "AWS 支持服务配套工具 · 体验报告（2026-09-25）",
+    "path": "notes/business/AWS支持服务配套工具-体验报告.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "体验报告",
+      "竞品",
+      "华为云支持服务立项",
+      "实测"
+    ],
+    "status": "stable",
+    "updated": "2026-09-25",
+    "summary": "报告日期：2026-09-25"
+  },
+  {
     "title": "EDR立项 · 云厂商支持服务文档库索引",
     "path": "notes/business/EDR立项-AWS竞品分析资料包索引.md",
     "area": "business",
