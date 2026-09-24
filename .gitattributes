@@ -1,0 +1,10 @@
+# 统一行尾为 LF —— CI 在 Linux 上运行,避免 CRLF 造成脚本/配置异常
+* text=auto eol=lf
+
+# 二进制文件不做行尾转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
