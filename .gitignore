@@ -27,3 +27,11 @@ _site/
 # 临时文件
 *.tmp
 ~$*
+
+# 语料库与暂存区（大体量二进制，不进仓库；正文归档于 D:/AI/my_project/）
+_tdoc_dl/
+_extract/
+_corpus/
+_tdoc_*.json
+_tdoc_*.py
+_tdoc_*.log

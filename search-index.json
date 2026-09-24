@@ -1,5 +1,138 @@
 [
   {
+    "title": "EDR立项 · 云厂商支持服务文档库索引",
+    "path": "notes/business/EDR立项-AWS竞品分析资料包索引.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "阿里云",
+      "竞品",
+      "语料库",
+      "索引",
+      "支持服务"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "本地 Markdown 合计 6.4 MB，PDF 存档合计 39.4 MB。"
+  },
+  {
+    "title": "华为云支持服务立项 · AWS 竞品对标",
+    "path": "notes/business/华为云支持服务立项-AWS竞品对标.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "竞品分析",
+      "定价",
+      "支持计划",
+      "EDR",
+      "立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "不是一个产品，是三层叠起来的体系："
+  },
+  {
+    "title": "华为云支持服务立项 · EDR 产品定义",
+    "path": "notes/business/华为云支持服务立项-EDR产品定义.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "EDR",
+      "事件检测与响应",
+      "产品定义",
+      "立项",
+      "分层溢价"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "管理面（平台运维事件、计划内变更、群障/区域故障）数据链路已验证连通（2026-09-21 确认）。"
+  },
+  {
+    "title": "华为云支持服务立项 · 产品序列与收入路径",
+    "path": "notes/business/华为云支持服务立项-产品序列与收入路径.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "产品序列",
+      "尊享级",
+      "定价",
+      "收入路径",
+      "梯度计费",
+      "立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "⇒ 官网最高等级「企业级」SLA 是 ＜10 分钟；内部规划的「尊享级」要求 ＜5 分钟。"
+  },
+  {
+    "title": "华为云支持服务立项 · 总览",
+    "path": "notes/business/华为云支持服务立项-总览.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "华为云",
+      "立项",
+      "支持服务",
+      "EDR",
+      "产品序列",
+      "尊享级"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "一套支持服务（Support Service）产品的立项组合，核心是把华为公有云的"
+  },
+  {
+    "title": "华为云支持服务立项 · 材料清单与路线图",
+    "path": "notes/business/华为云支持服务立项-材料清单与路线图.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "立项",
+      "材料清单",
+      "路线图",
+      "导航"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "理由：12 号给出全貌（三级梯度 × 四项立项），先立框架，再填内容，"
+  },
+  {
+    "title": "华为云支持服务立项 · 立项二三（VIP TAC 与 昇腾950）",
+    "path": "notes/business/华为云支持服务立项-立项二三产品定义.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "VIP TAC",
+      "昇腾950",
+      "立项",
+      "尊享级",
+      "SLA",
+      "交付成功率"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "AWS Unified Operations（$50,000/月起）/ AWS IDR（$7,000/月起）"
+  },
+  {
+    "title": "昇腾950立项 · 官方语料索引",
+    "path": "notes/business/昇腾950立项-官方语料索引.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "昇腾950",
+      "华为支持计划",
+      "语料库",
+      "索引",
+      "CCAE",
+      "MindCluster"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "已归档位置：D:/AI/my_project/cloud-support-docs/huawei/"
+  },
+  {
     "title": "GitHub 初始化知识库的方案对比",
     "path": "notes/tooling/github-knowledge-base-options.md",
     "area": "tooling",
