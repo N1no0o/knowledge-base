@@ -1,0 +1,29 @@
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Obsidian 本地状态（保留配置，忽略缓存与工作区）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# 临时文件
+*.tmp
+~$*
