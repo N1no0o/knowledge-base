@@ -1,0 +1,17 @@
+[
+  {
+    "title": "GitHub 初始化知识库的方案对比",
+    "path": "notes/tooling/github-knowledge-base-options.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "github",
+      "knowledge-base",
+      "til",
+      "pkm"
+    ],
+    "status": "growing",
+    "updated": "2026-09-25",
+    "summary": "最值得抄的不是某个笔记软件，而是 TIL（Today I Learned）范式——直接把 GitHub 仓库当知识库，因为 GitHub 已免费提供文件系统、M…"
+  }
+]
