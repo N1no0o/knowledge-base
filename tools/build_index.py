@@ -18,12 +18,21 @@ import json
 import os
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
     pass
+
+# 固定用北京时间（UTC+8）算"今天"。
+# 原因：本地是 GMT+8、GitHub Actions runner 是 UTC，两边 date.today() 会差一天，
+# 导致 index.md 首行日期反复翻转，每次同步都多出一个无意义的 "chore: rebuild index" 提交。
+CN_TZ = timezone(timedelta(hours=8))
+
+
+def today_cn() -> date:
+    return datetime.now(CN_TZ).date()
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOTES_DIR = os.path.join(ROOT, "notes")
@@ -106,7 +115,7 @@ def scan():
 
 
 def build_index_md(items):
-    today = date.today().isoformat()
+    today = today_cn().isoformat()
     out = [
         "# 索引",
         "",
@@ -191,7 +200,7 @@ def run_check(items):
 
     orphans = [it for it in items if inbound.get(it["stem"], 0) == 0]
     no_source = [it for it in items if not it["source"]]
-    today = date.today()
+    today = today_cn()
     stale = []
     for it in items:
         if it["status"] != "seedling" or not it["updated"]:
