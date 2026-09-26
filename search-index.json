@@ -177,6 +177,106 @@
     "summary": "本地 Markdown 合计 6.4 MB，PDF 存档合计 39.4 MB。"
   },
   {
+    "title": "AWS 支持计划 33 项能力 × 四档逐项取值",
+    "path": "notes/business/aws-support-plans-33-capabilities.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持计划",
+      "能力矩阵",
+      "差距分析",
+      "竞品"
+    ],
+    "status": "growing",
+    "updated": "2026-09-27",
+    "summary": "结论：四档的分档轴不是「支持量大小」而是「工作负载的失效后果等级」（Default → Production → Business-critical → Mis…"
+  },
+  {
+    "title": "AWS 支持计划 BA 业务架构逆向（六视图）",
+    "path": "notes/business/aws-support-plans-ba-architecture.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持计划",
+      "BA业务架构",
+      "4A",
+      "方法论",
+      "竞品"
+    ],
+    "status": "growing",
+    "updated": "2026-09-27",
+    "summary": "结论：用华为 4A 的 BA（业务架构）视角对 AWS 支持计划做逆向工程，得到一条可迁移的核心范式 —— 「档位 = 交付主体等级的封装包」，价格差异不是按「…"
+  },
+  {
+    "title": "AWS 支持计划 33 张单能力 BA 卡片（交付主体视角）",
+    "path": "notes/business/aws-support-plans-ba-cards.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持计划",
+      "BA业务架构",
+      "单能力卡片",
+      "交付主体",
+      "竞品"
+    ],
+    "status": "growing",
+    "updated": "2026-09-27",
+    "summary": "结论：把 BA 六视图下钻到每一项能力（33 张卡片），四档形态表填的是「由谁交付」而不是「有没有」；汇总结构数据显示 —— 33 项里有 16 项在 BS+ …"
+  },
+  {
+    "title": "AWS 支持计划能力基线与实测证据（Business Support+）",
+    "path": "notes/business/aws-support-plans-baseline.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持计划",
+      "能力基线",
+      "实测证据",
+      "竞品",
+      "BusinessSupport+"
+    ],
+    "status": "growing",
+    "updated": "2026-09-27",
+    "summary": "结论：AWS 支持计划已于 re:Invent 2025 重构为四档（Basic / Business Support+ / Enterprise / Unif…"
+  },
+  {
+    "title": "EDR 立项汇报 PPT 索引（33 页 deck）",
+    "path": "notes/business/edr-proposal-deck-index.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "EDR",
+      "立项",
+      "PPT",
+      "交付物索引",
+      "slidep"
+    ],
+    "status": "growing",
+    "updated": "2026-09-27",
+    "summary": "结论：EDR（事件检测与响应）立项汇报 deck 已成稿，33 页，用 slidep DSL 生产，源为 slides/01–33.slide；大二进制不进 G…"
+  },
+  {
+    "title": "华为云支持服务「三级梯度 × 四项立项」汇报交付包索引",
+    "path": "notes/business/huawei-support-four-proposals-deck.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "华为云",
+      "立项",
+      "PPT",
+      "交付物索引",
+      "三级梯度",
+      "四项立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-27",
+    "summary": "结论：本批立项汇报的战略视野从「单产品 EDR」提升到「三级梯度 × 四项立项」，deck 定稿 27 页（正文 26 + 备份 1）、汇报 30–35 分钟；…"
+  },
+  {
     "title": "华为云支持服务立项 · AWS 竞品对标",
     "path": "notes/business/华为云支持服务立项-AWS竞品对标.md",
     "area": "business",
@@ -272,7 +372,7 @@
       "交付成功率"
     ],
     "status": "growing",
-    "updated": "2026-09-25",
+    "updated": "2026-09-27",
     "summary": "AWS Unified Operations（$50,000/月起）/ AWS IDR（$7,000/月起）"
   },
   {

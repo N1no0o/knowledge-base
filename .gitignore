@@ -35,3 +35,13 @@ _corpus/
 _tdoc_*.json
 _tdoc_*.py
 _tdoc_*.log
+
+# 知识库同步状态：账本 ingested.json 进 Git（保持跨设备一致）；
+# 运行期产物（清单、推送报告）不进
+_kb_state/pending.json
+_kb_state/push_report.json
+_kb_state/pending_push.md
+
+# 本地推送草稿（脚本与一次性 commit message，不进仓库）
+_push.py
+_commit_msg.txt

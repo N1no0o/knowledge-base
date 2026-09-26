@@ -26,6 +26,7 @@
 ├── _templates/      笔记模板（4 类）
 ├── _docs/           架构与使用说明
 ├── tools/           自动化脚本
+├── _kb_state/       产出件同步账本（ingested.json 进 Git；pending.json 不进）
 ├── index.md         全量索引（AI 自动生成，不要手改）
 ├── log.md           操作日志（追加式）
 └── AGENTS.md        本文件
@@ -106,6 +107,43 @@ status: seedling        # seedling 幼苗 / growing 成长 / evergreen 常青
 
 **只报告，不擅自删除。** 删除必须经人工确认。
 
+### 3.5 sync — 产出件增量同步
+
+**触发**：定时任务「知识库每日同步」，或用户说"同步产出件""把今天的产出归档"
+
+日复一日地把 `D:/AI/my_project` 下新产生的资料性文档编译进库。**幂等**：靠 `_kb_state/ingested.json` 账本去重，跑多少次结果一致。
+
+```bash
+python tools/kb_scan.py          # ① 输出待处理清单（--all 全量，--status 只看统计）
+#                              # ② ← 这一步由 agent 做：编译成笔记
+python tools/kb_scan.py --mark "<源文件绝对路径>" --note "notes/<领域>/<文件名>.md"  # ③ 逐件记账
+python tools/build_index.py      # ④ 重建索引
+#                              # ⑤ 追加 log.md
+python tools/kb_push.py -F _commit_msg.txt   # ⑥ 推送 GitHub（无凭据时只本地）
+```
+
+**第 ② 步的判断规则：**
+
+| 产出件类型 | 处理方式 |
+|---|---|
+| `.md` 报告 / 方案 / 纪要（< 40 KB） | 按 §2 格式编译成 `notes/<领域>/` 笔记：保留结论与要点，删过程性叙述 |
+| `.md` 大报告（≥ 40 KB） | 拆：核心结论单独成篇，细节留在 `source:` 指向的原件，笔记里只写「结论 + 关键数据 + 指向」 |
+| `.zip` / `.pptx` / `.pdf` / `.xlsx` | **不进 Git**。写一篇索引笔记，记清包里有什么、体积、本地绝对路径、生成时间 |
+| `slidep` 工程的 `STORY.md` / `DESIGN.md` | 属 PPT 源材料，不是交付物 ⇒ 加进 `_kb_state/ignore.txt`，或只在既有笔记里补一行链接 |
+| 分支版本（`-v2` `-v3` `-final`） | 只收最新版；旧版在 `_kb_state/ignore.txt` 里排除 |
+
+**领域归属**（`notes/` 下的目录）：立项 / 方案 / 竞品 / 客户 → `business`；服务器 / 网络 / 云 / 代理 → `infra`；
+脚本 / 工具链 / 自动化 → `tooling`；大模型 / agent / 提示词 → `ai`；读书笔记 → `reading`；其余 → `life`。
+
+**硬规则：**
+
+1. **先查重再新建** —— 在 `notes/` 里搜主题词，已有同主题笔记就**更新它**，别新建重复页
+2. 单次执行**最多处理 8 件**，按 `mtime` 倒序（新的先归档），余量留给下一次
+3. 每处理完一件立刻 `--mark` 记账；**没真正落成笔记的不许 mark**（账本是账，不是待办清单）
+4. `_kb_state/ignore.txt` 是人工判定区 —— agent 可以**建议**新增排除项，但不要自行把该排除的文件 mark 掉
+5. 大二进制永远不进 Git：`.gitignore` 与 `kb_push.py` 的 2 MiB 上限是双保险
+6. 涉及未公开经营数据 / 客户信息的产出件，归档前先问人
+
 ## 4. 硬规则
 
 1. `index.md` 由脚本生成 —— **禁止手改**，改了会在下次构建时被覆盖
@@ -118,11 +156,27 @@ status: seedling        # seedling 幼苗 / growing 成长 / evergreen 常青
 ## 5. 维护脚本
 
 ```bash
-python tools/build_index.py          # 重建 index.md 与 search-index.json
-python tools/build_index.py --check  # 只检查不写入（lint 用）
+python tools/build_index.py                  # 重建 index.md 与 search-index.json
+python tools/build_index.py --check          # 只检查不写入（lint 用）
+
+python tools/kb_scan.py                      # 扫描 agent 产出件，输出待处理清单
+python tools/kb_scan.py --status             # 账本 / 可扫描数 / 已消失源文件
+python tools/kb_scan.py --mark <src> --note <rel>   # 记账
+
+python tools/kb_push.py                      # 推送到 GitHub（自动 commit message）
+python tools/kb_push.py --dry-run            # 只看会推哪些文件
+python tools/kb_push.py --verify-only        # 比对远端与本地一致性
 ```
 
 新增 `notes/` 下的领域目录时，在 `tools/build_index.py` 的 `AREAS` 字典里加一行，否则不会被计入索引。
+
+**推送凭据**：`kb_push.py` 依次从 `GH_PAT` / `N1NO_PAT` 环境变量、`D:/AI/my_project/.secrets/gh_pat_n1no`
+读取 token（见该目录 `README.md`）。**token 永远不写进脚本、日志、笔记、报告。**
+退出码：`0` 成功 · `1` 推送失败 · `2` 校验不一致 · `3` 未配置凭据（此时本地整理仍然有效）。
+
+> ⚠️ **返回 3 ≠ 网络被拦**（2026-09-27 实测）：本机 `git ls-remote` / `git fetch` 全部正常，
+> 唯一缺的是凭据。**返回 3 时不要停在"只本地入库"** —— 改用宿主已连接的 GitHub 连接器，
+> 把本地改动文件一次性推进同一个 commit，再继续收尾。目标是**每次同步后本地与远端内容一致**。
 
 ---
 

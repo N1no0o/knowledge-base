@@ -1,0 +1,122 @@
+{
+  "dist/AWS竞品分析资料包-20260921.zip": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/EDR立项-AWS竞品分析资料包索引.md",
+    "sha256": "3ad1313530cdef2725735629eb97186e37d6cd6e05c25f17ffe288127410cad5",
+    "size": 868799
+  },
+  "dist/aws-agent-toolkit/AWS-Agent-Toolkit-安装记录.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS-Agent-Toolkit-安装记录.md",
+    "sha256": "cd0e60ee6830b09f2c5cb6f0b447bf3ca22744fb33c6292de9a68919f02cf99b",
+    "size": 11341
+  },
+  "dist/aws-agent-toolkit/AWS支持服务工具-API实测报告.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-API实测报告.md",
+    "sha256": "a04852f36bee280076c0c33432bb292f45044ca073b50bec85de210842e61aae",
+    "size": 11669
+  },
+  "dist/aws-agent-toolkit/AWS支持服务工具-手册总览.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-手册总览.md",
+    "sha256": "ad3dc306b21afe66cb4658c6637b00ec6b4d13973f29301a234c5fcb9c77e154",
+    "size": 7521
+  },
+  "dist/aws-support-plans/AWS支持计划_BA业务架构设计.md": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/aws-support-plans-ba-architecture.md",
+    "sha256": "4a244798707681dae3969ed26c80bb7bbe0ab56533666157f0311f80af87a293",
+    "size": 44074
+  },
+  "dist/aws-support-plans/AWS支持计划_逐项能力BA逆向.md": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/aws-support-plans-ba-cards.md",
+    "sha256": "e15ac19b06a7d3e01c09db6a8065405b65546ffb99973853034522df88b3ac9a",
+    "size": 86142
+  },
+  "dist/aws-support-plans/AWS支持计划能力基线.md": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/aws-support-plans-baseline.md",
+    "sha256": "4871db362ca3ec1494a408b7bc16f7032b83ca425e52fe1887a8fed9ec25d9b9",
+    "size": 26929
+  },
+  "dist/aws-support-plans/AWS支持计划能力逐项分析报告.md": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/aws-support-plans-33-capabilities.md",
+    "sha256": "03af77c1cd8089d3250c321fa228544249ce6ab40d2a83fdf28a8a8bb7cfbb5d",
+    "size": 68459
+  },
+  "dist/aws-support-tools/AWS支持服务工具-API实测报告.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-API实测报告.md",
+    "sha256": "ea8b403f40b1e66b719fab57392337910723ff0d1d314840000aad331f3d829c",
+    "size": 8269
+  },
+  "dist/aws-support-tools/AWS支持服务工具-AWS-Health.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-AWS-Health.md",
+    "sha256": "a2c983fb44aca70be913dfb203642458404fda223b36a24092a9874e5379f267",
+    "size": 5762
+  },
+  "dist/aws-support-tools/AWS支持服务工具-IDR与AI增强.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-IDR与AI增强.md",
+    "sha256": "5936fa55e9784b15efc636dce839e5708be0f73794d5e6fd08eba31e85a6e6f4",
+    "size": 14746
+  },
+  "dist/aws-support-tools/AWS支持服务工具-SAW与Slack.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-SAW与Slack.md",
+    "sha256": "472c4855f203c1e8a12f8ca81f587b0f4b55da831b7c5abee1a6ed9cb6d2a161",
+    "size": 6159
+  },
+  "dist/aws-support-tools/AWS支持服务工具-Support-API与工单.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-Support-API与工单.md",
+    "sha256": "8606ae78186a04f2a4e1fb29f81ae7b76b14e8d4bd7756d80ccc744b24984301",
+    "size": 5811
+  },
+  "dist/aws-support-tools/AWS支持服务工具-Trusted-Advisor.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-Trusted-Advisor.md",
+    "sha256": "315416866dba02675f346845d78089a4a287e959fdb56255af7e842815551b28",
+    "size": 5612
+  },
+  "dist/aws-support-tools/AWS支持服务工具-手册总览.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务工具-手册总览.md",
+    "sha256": "bdbc1365e3d85f478f5f8cf2437202c6163052a87b1af4f95e3bfd22ec7537ca",
+    "size": 6268
+  },
+  "dist/aws-support-tools/AWS支持服务配套工具-体验报告.md": {
+    "ingested_at": "2026-09-27 00:48",
+    "note": "notes/business/AWS支持服务配套工具-体验报告.md",
+    "sha256": "cbc6f8ba3a0bde9fa80e92ea81290c1f11ca5aef5ca34aeb281dffcc95ea6937",
+    "size": 14889
+  },
+  "dist/huawei-cloud-立项材料/10-立项汇报PPT章节结构.md": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/huawei-support-four-proposals-deck.md",
+    "sha256": "6d4a39733ef45566e30aa5c50e73751d53573846d1b17fe1a240075ed600272e",
+    "size": 12355
+  },
+  "dist/huawei-cloud-立项材料/13-立项二三产品定义-VIP-TAC与昇腾950支持服务.md": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/华为云支持服务立项-立项二三产品定义.md",
+    "sha256": "1855dd62a0f0e911eeb7a7b6e7564e80939099ca5539bfe8b7f3f68f179ed86d",
+    "size": 81863
+  },
+  "dist/华为云支持服务产品序列-四项立项汇报-20260921-v4.zip": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/huawei-support-four-proposals-deck.md",
+    "sha256": "6696bc1e92b72f9655e1ad63c6129ad274e3673d12926a9ace4cb53322acb7fa",
+    "size": 223164
+  },
+  "dist/华为公有云事件检测与响应-立项汇报/华为公有云事件检测与响应-立项汇报.pptx": {
+    "ingested_at": "2026-09-27 01:03",
+    "note": "notes/business/edr-proposal-deck-index.md",
+    "sha256": "781aea9cca9c56edf202436ab95cc5545c298a2fdae5c40d47db53df0bd2a2fc",
+    "size": 206116
+  }
+}

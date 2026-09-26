@@ -1,9 +1,9 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-09-26 · 共 18 篇
+> 最后更新:2026-09-27 · 共 24 篇
 
-## 业务与立项(`business`) · 17 篇
+## 业务与立项(`business`) · 23 篇
 
 - [AWS Agent Toolkit · 安装与验证记录（2026-09-26）](notes/business/AWS-Agent-Toolkit-安装记录.md) — --- `stable`
 - [AWS 支持服务工具 · API 实测报告（两轮：2026-09-25 / 09-26）](notes/business/AWS支持服务工具-API实测报告.md) — --- `stable`
@@ -14,7 +14,13 @@
 - [AWS 支持服务工具 · Trusted Advisor](notes/business/AWS支持服务工具-Trusted-Advisor.md) — Priority 是什么：由你的 AWS 账户团队提供的情境驱动、按优先级排序的建议 —— `growing`
 - [AWS 支持服务配套工具 · 体验报告（2026-09-25）](notes/business/AWS支持服务配套工具-体验报告.md) — 报告日期：2026-09-25 `stable`
 - [AWS 支持服务配套工具体系 · 手册总览](notes/business/AWS支持服务工具-手册总览.md) — AWS 的支持服务不是「一个工单系统」，而是「数据层 + 服务层 + AI 层」三层叠加的工具体系 —— `stable`
+- [AWS 支持计划 33 张单能力 BA 卡片（交付主体视角）](notes/business/aws-support-plans-ba-cards.md) — 结论：把 BA 六视图下钻到每一项能力（33 张卡片），四档形态表填的是「由谁交付」而不是「有没有」；汇总结构数据显示 —— 33 项里有 16 项在 BS+ … `growing`
+- [AWS 支持计划 33 项能力 × 四档逐项取值](notes/business/aws-support-plans-33-capabilities.md) — 结论：四档的分档轴不是「支持量大小」而是「工作负载的失效后果等级」（Default → Production → Business-critical → Mis… `growing`
+- [AWS 支持计划 BA 业务架构逆向（六视图）](notes/business/aws-support-plans-ba-architecture.md) — 结论：用华为 4A 的 BA（业务架构）视角对 AWS 支持计划做逆向工程，得到一条可迁移的核心范式 —— 「档位 = 交付主体等级的封装包」，价格差异不是按「… `growing`
+- [AWS 支持计划能力基线与实测证据（Business Support+）](notes/business/aws-support-plans-baseline.md) — 结论：AWS 支持计划已于 re:Invent 2025 重构为四档（Basic / Business Support+ / Enterprise / Unif… `growing`
+- [EDR 立项汇报 PPT 索引（33 页 deck）](notes/business/edr-proposal-deck-index.md) — 结论：EDR（事件检测与响应）立项汇报 deck 已成稿，33 页，用 slidep DSL 生产，源为 slides/01–33.slide；大二进制不进 G… `growing`
 - [EDR立项 · 云厂商支持服务文档库索引](notes/business/EDR立项-AWS竞品分析资料包索引.md) — 本地 Markdown 合计 6.4 MB，PDF 存档合计 39.4 MB。 `growing`
+- [华为云支持服务「三级梯度 × 四项立项」汇报交付包索引](notes/business/huawei-support-four-proposals-deck.md) — 结论：本批立项汇报的战略视野从「单产品 EDR」提升到「三级梯度 × 四项立项」，deck 定稿 27 页（正文 26 + 备份 1）、汇报 30–35 分钟；… `growing`
 - [华为云支持服务立项 · AWS 竞品对标](notes/business/华为云支持服务立项-AWS竞品对标.md) — 不是一个产品，是三层叠起来的体系： `growing`
 - [华为云支持服务立项 · EDR 产品定义](notes/business/华为云支持服务立项-EDR产品定义.md) — 管理面（平台运维事件、计划内变更、群障/区域故障）数据链路已验证连通（2026-09-21 确认）。 `growing`
 - [华为云支持服务立项 · 产品序列与收入路径](notes/business/华为云支持服务立项-产品序列与收入路径.md) — ⇒ 官网最高等级「企业级」SLA 是 ＜10 分钟；内部规划的「尊享级」要求 ＜5 分钟。 `growing`
