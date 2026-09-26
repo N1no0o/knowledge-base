@@ -2,15 +2,15 @@
 title: AWS 支持服务配套工具体系 · 手册总览
 tags: [AWS, 支持服务, 工具, Trusted Advisor, Health, Support API, SAW, 竞品]
 created: 2026-09-25
-updated: 2026-09-25
-source: AWS 官方文档（cloud-support-docs/aws/ 957 篇）+ 官网产品页 28 篇 + 真实 API 探测 42 次｜2026-09-25
-status: growing
+updated: 2026-09-26
+source: AWS 官方文档（cloud-support-docs/aws/ 957 篇）+ 官网产品页 28 篇 + 真实 API 探测两轮（42 次 + 17 次）｜2026-09-25/26
+status: stable
 ---
 
 # AWS 支持服务配套工具体系 · 手册总览
 
 > 本手册覆盖 AWS 支持服务（Support）的**全部配套工具**，含 API 能力、权限要求、
-> 支持计划门槛、以及 **2026-09-25 真实 API 探测结果**。
+> 支持计划门槛、以及 **两轮真实 API 探测结果**（2026-09-25 / 09-26）。
 >
 > 文档底座：`D:/AI/my_project/cloud-support-docs/aws/`（957 篇官方 md）+ `_website/`（28 篇产品页）
 
@@ -60,23 +60,41 @@ status: growing
 > 3. **Health API / Support API / SAW 全部锁在 Business+ 以上**
 >    → **API 访问本身就是付费门槛**，不是技术门槛
 
-## 2026-09-25 真实探测结果（重要）
+## 真实探测结果（两轮，结论已翻转）
 
-对测试账号 `206482634625`（IAM 用户 `WorkBuddy`）执行 **42 次只读 API 调用**：
+### 第一轮 2026-09-25｜IAM 用户 `WorkBuddy`（AK/SK）｜42 次
 
 | 结果 | 次数 | 原因 |
 |---|---|---|
 | ✔ 成功 | **0** | — |
-| ✘ `SubscriptionRequiredException` | **13** | **无有效付费支持订阅** |
-| ✘ `AccessDeniedException` | **17** | **IAM 用户几乎无策略** |
-| ✘ 参数错误（我的问题） | 2 | 已修正 |
+| ✘ `SubscriptionRequiredException` | **19** | **无有效付费支持订阅** |
+| ✘ `AccessDeniedException` | **20** | **IAM 用户几乎无策略** |
+| ✘ `参数错误`（我的问题） | 3 | 已修正 |
 
-**核心结论**：
-- **`SubscriptionRequiredException` 是订阅层拦截，在 IAM 之前** —— 光配 IAM 策略无效
-- 跨 4 个区域（us-east-1 / us-west-2 / ap-southeast-1 / eu-west-1）验证一致，**排除区域因素**
-- **支持服务类 API（Trusted Advisor / Support / Health）在无付费订阅时完全不可用**
+### 第二轮 2026-09-26｜**root**（`aws login`）｜17 次
 
-详见 [[AWS支持服务工具-API实测报告]]。
+| 结果 | 次数 | 原因 |
+|---|---|---|
+| ✔ 成功 | **9** | IAM 层问题**全部消失** |
+| ✘ `SubscriptionRequiredException` | **8** | **订阅层丝毫未动** |
+
+### 🔴 终局结论（第二轮得出）
+
+1. **账号是新形态 AWS 的 PAID 计划**（`aws freetier get-account-plan-state` → `accountPlanType: PAID` / `ACTIVE`）
+2. **只有订阅层是真的**：换成 root 后 IAM 层错误全部消失，**订阅层错误分毫未动**
+   → 这是「**订阅校验发生在 IAM 之前**」的**对照实验级证据**
+3. **新形态账号的「PAID 计划」不含传统 Premium Support 订阅** ⇒
+   该账号上 **Support API / Health API 永远不可达**，与 IAM、区域、是否过期**全部无关**。
+   口述的「Business 支持计划」在这一账号体系下**不成立**
+4. ⭐ **付费墙粒度可达子服务级**：同一 `support` 产品族内，**`support-app` 能过、`support` 主 API 不能过**
+5. ⚠️ **纪律条目**：`ce:GetCostAndUsage` 是「**只读但计费**」（$0.01/次）—— 零费用约束下**已主动跳过**
+
+> 完整证据链、逐条结果、以及方法论提醒见 [[AWS支持服务工具-API实测报告]]。
+
+### 第一轮的区域对照（排除区域因素）
+
+`us-east-1` / `us-west-2` / `ap-southeast-1` / `eu-west-1` 返回**完全相同**错误；
+`cn-north-1` 返回 `UnrecognizedClientException`（中国区凭据体系独立）。
 
 ## 子笔记导航
 
@@ -87,7 +105,8 @@ status: growing
 | [[AWS支持服务工具-Support-API与工单]] | 21 个操作 + 工单全生命周期 |
 | [[AWS支持服务工具-SAW与Slack]] | 自动化工作流 + Slack 集成 |
 | [[AWS支持服务工具-IDR与AI增强]] | IDR / DevOps Agent / Countdown |
-| [[AWS支持服务工具-API实测报告]] | 42 次真实调用记录与失败分析 |
+| [[AWS支持服务工具-API实测报告]] | **两轮**真实调用记录（42 + 17 次）与结论翻转 |
+| [[AWS-Agent-Toolkit-安装记录]] | ⭐ AWS Agent Toolkit 7 步安装 / `aws login` / MCP 接入 WorkBuddy |
 | [[AWS支持服务配套工具-体验报告]] | ⭐ 面向决策者的总结报告（结论先行 + 6 个立项发现） |
 
 ## 文档底座位置

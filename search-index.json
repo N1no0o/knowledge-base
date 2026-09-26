@@ -1,6 +1,25 @@
 [
   {
-    "title": "AWS 支持服务工具 · API 实测报告（2026-09-25）",
+    "title": "AWS Agent Toolkit · 安装与验证记录（2026-09-26）",
+    "path": "notes/business/AWS-Agent-Toolkit-安装记录.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "Agent-Toolkit",
+      "MCP",
+      "aws-mcp",
+      "aws-login",
+      "WorkBuddy",
+      "安装记录",
+      "华为云支持服务立项"
+    ],
+    "status": "stable",
+    "updated": "2026-09-26",
+    "summary": "---"
+  },
+  {
+    "title": "AWS 支持服务工具 · API 实测报告（两轮：2026-09-25 / 09-26）",
     "path": "notes/business/AWS支持服务工具-API实测报告.md",
     "area": "business",
     "areaLabel": "业务与立项",
@@ -10,10 +29,11 @@
       "API",
       "实测",
       "SubscriptionRequiredException",
+      "new-AWS-experience",
       "华为云支持服务立项"
     ],
     "status": "stable",
-    "updated": "2026-09-25",
+    "updated": "2026-09-26",
     "summary": "---"
   },
   {
@@ -118,8 +138,8 @@
       "SAW",
       "竞品"
     ],
-    "status": "growing",
-    "updated": "2026-09-25",
+    "status": "stable",
+    "updated": "2026-09-26",
     "summary": "AWS 的支持服务不是「一个工单系统」，而是「数据层 + 服务层 + AI 层」三层叠加的工具体系 ——"
   },
   {
