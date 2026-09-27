@@ -47,6 +47,42 @@
     "sha256": "03af77c1cd8089d3250c321fa228544249ce6ab40d2a83fdf28a8a8bb7cfbb5d",
     "size": 68459
   },
+  "dist/aws-support-plans/tooling-probe/INTERFACE.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/business/aws-support-tooling-probe-design.md",
+    "sha256": "fec316b3fbd4a083197081293037e2dad7c29ccf5fb64a20f903772063703913",
+    "size": 10033
+  },
+  "dist/aws-support-plans/tooling-probe/defects.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/business/aws-support-tooling-probe-defects.md",
+    "sha256": "f91b59c2db8b3b1ea8de9a87259ffd98994ced625c784de9d152f91bef067114",
+    "size": 24997
+  },
+  "dist/aws-support-plans/tooling-probe/defects2.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/business/aws-support-tooling-probe-defects.md",
+    "sha256": "b0a361458b92f2a2dab830cd3b83dce0e8e2fce8e94e30ebb5dc91fcb16133f8",
+    "size": 37296
+  },
+  "dist/aws-support-plans/tooling-probe/inventory_diff.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/business/aws-support-tooling-probe-inventory-diff.md",
+    "sha256": "c86dafcb244d9947b878ac7bc6702ce8549edd1746fc2d2eae576d5145b529e8",
+    "size": 14076
+  },
+  "dist/aws-support-plans/tooling-probe/param_fill_report.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/business/aws-support-tooling-probe-param-fill.md",
+    "sha256": "06c47b13f0c31b7e1d90522b3c27c230389d4011c3c5fc60de0f8863c41a06e2",
+    "size": 8951
+  },
+  "dist/aws-support-plans/tooling-probe/probe_audit.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/business/aws-support-tooling-probe-audit.md",
+    "sha256": "a6cdf0b6bb5706b19b9c6363c83b7b0f159b208c491e2620e49d2b8d4277a6d1",
+    "size": 24929
+  },
   "dist/aws-support-tools/AWS支持服务工具-API实测报告.md": {
     "ingested_at": "2026-09-27 00:48",
     "note": "notes/business/AWS支持服务工具-API实测报告.md",
@@ -106,6 +142,18 @@
     "note": "notes/business/华为云支持服务立项-立项二三产品定义.md",
     "sha256": "1855dd62a0f0e911eeb7a7b6e7564e80939099ca5539bfe8b7f3f68f179ed86d",
     "size": 81863
+  },
+  "dist/raven-install/raven-install-report-2026-09-27.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/tooling/raven-install-windows-native.md",
+    "sha256": "5190aa56476961c23ffbc24040d97d95b6892846ef2a046cb00e2107abb482c6",
+    "size": 8946
+  },
+  "dist/skill-audit/技能一致性体检-2026-09-27.md": {
+    "ingested_at": "2026-09-28 01:02",
+    "note": "notes/tooling/skill-env-consistency-audit-20260927.md",
+    "sha256": "c1a997f0f8785284b1e2cdc0dac97783fead4c403f6d62bbb3f60e18c52da04d",
+    "size": 7771
   },
   "dist/华为云支持服务产品序列-四项立项汇报-20260921-v4.zip": {
     "ingested_at": "2026-09-27 01:03",

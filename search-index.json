@@ -244,6 +244,95 @@
     "summary": "结论：AWS 支持计划已于 re:Invent 2025 重构为四档（Basic / Business Support+ / Enterprise / Unif…"
   },
   {
+    "title": "AWS 支持工具能力普查 · A/B/C/D 交叉审计结论",
+    "path": "notes/business/aws-support-tooling-probe-audit.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "交叉审计",
+      "可证伪",
+      "反造假",
+      "多agent",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：A（真伪）未发现伪造、C（越界）0 越界、D（面覆盖）抓出 2 个真实缺漏，但 B（可复现）因宿主 shell 崩溃而根本没执行——本轮验收的「可证…"
+  },
+  {
+    "title": "AWS 支持工具能力普查 · 两轮缺陷审计与修复判定（D-1…D-22）",
+    "path": "notes/business/aws-support-tooling-probe-defects.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "缺陷审计",
+      "交叉审计",
+      "多agent",
+      "复盘",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：独立验证方两轮共登记 22 条缺陷（第一轮 D-1…D-12，第二轮 D-13…D-22），第二轮对第一轮逐项复审、撤回 1 条误判、确认 4 项修…"
+  },
+  {
+    "title": "AWS 支持工具能力普查 · 探测设计与契约（2026-09-27）",
+    "path": "notes/business/aws-support-tooling-probe-design.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "能力探测",
+      "多agent",
+      "可证伪",
+      "契约设计",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：这次探测把「某云厂商支持工具能不能用」做成了可证伪的工程题——办法是「一份契约 + 两路互相独立的服务清单真值源 + 每个操作原始响应全量落盘 + …"
+  },
+  {
+    "title": "AWS 支持工具能力普查 · 两路真值源逐命名空间差异",
+    "path": "notes/business/aws-support-tooling-probe-inventory-diff.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "面覆盖",
+      "botocore",
+      "命名空间",
+      "计数陷阱",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：CLI 侧（aws <ns> help）与模型侧（botocore service-2.json）逐命名空间比对，12 个正向命名空间里 9 个一致…"
+  },
+  {
+    "title": "AWS 支持工具能力普查 · 补参重跑与真实可达性",
+    "path": "notes/business/aws-support-tooling-probe-param-fill.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "补参",
+      "error_class",
+      "真实可达性",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：对 130 条「只读且必填参数 >0」的操作自动补参后重跑，「实际被调用」从 3 条跃升到 124 条、service_error 从 2 条增到 …"
+  },
+  {
     "title": "EDR 立项汇报 PPT 索引（33 页 deck）",
     "path": "notes/business/edr-proposal-deck-index.md",
     "area": "business",
@@ -406,5 +495,41 @@
     "status": "growing",
     "updated": "2026-09-25",
     "summary": "最值得抄的不是某个笔记软件，而是 TIL（Today I Learned）范式——直接把 GitHub 仓库当知识库，因为 GitHub 已免费提供文件系统、M…"
+  },
+  {
+    "title": "Raven（Windows 原生）安装与卸载记录 · v0.2.3",
+    "path": "notes/tooling/raven-install-windows-native.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "Windows",
+      "uv",
+      "工具链",
+      "沙箱",
+      "Playwright",
+      "批量删除守卫",
+      "安装记录"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：Raven v0.2.3 在 Windows 上用 uv tool install 装成功、四个内置插件全部 activated；真正的坑不在 Ra…"
+  },
+  {
+    "title": "技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）",
+    "path": "notes/tooling/skill-env-consistency-audit-20260927.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "Skill",
+      "技能体检",
+      "hook",
+      "WorkBuddy",
+      "codex",
+      "多agent",
+      "工具链"
+    ],
+    "status": "growing",
+    "updated": "2026-09-28",
+    "summary": "一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra…"
   }
 ]
