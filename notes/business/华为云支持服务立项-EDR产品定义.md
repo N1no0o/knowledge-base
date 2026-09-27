@@ -2,8 +2,8 @@
 title: 华为云支持服务立项 · EDR 产品定义
 tags: [EDR, 事件检测与响应, 产品定义, 立项, 分层溢价]
 created: 2026-09-25
-updated: 2026-09-25
-source: 腾讯文档「01-产品立项报告-Charter.md」+「02-产品需求文档-PRD.md」｜归档 2026-09-25
+updated: 2026-09-28
+source: 腾讯文档「01-产品立项报告-Charter.md」+「02-产品需求文档-PRD.md」｜本地原件 dist/huawei-cloud-立项材料/01-产品立项报告-Charter.md（15.7 KB）+ 02-产品需求文档-PRD.md（7.0 KB），2026-09-21｜归档 2026-09-25
 status: growing
 ---
 

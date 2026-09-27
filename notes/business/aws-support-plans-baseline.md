@@ -36,7 +36,7 @@ status: growing
 
 ## 三、本账号事实底座
 
-账号 `206482634625`（N1noooo）｜区域 `us-east-1`｜计划 `PAID`/ACTIVE｜创建 2026-09-24｜**未加入 Organizations**
+账号 `2064****4625`（N1noooo）｜区域 `us-east-1`｜计划 `PAID`/ACTIVE｜创建 2026-09-24｜**未加入 Organizations**
 AWS Config **未启用**｜Compute Optimizer **Inactive**｜Security Hub **未订阅**
 
 ## 四、能力实测判据（升级前后对照）

@@ -4,7 +4,7 @@ tags: [AWS, 支持服务, API, 实测, SubscriptionRequiredException, new-AWS-ex
 created: 2026-09-25
 updated: 2026-09-26
 source: 本机真实 API 调用｜第一轮 42 次（boto3 1.43.101）｜第二轮 17 次（AWS CLI 2.37.3 + root 身份）｜原始记录见文末
-status: stable
+status: evergreen
 ---
 
 # AWS 支持服务工具 · API 实测报告
@@ -15,7 +15,7 @@ status: stable
 | | 第一轮 | 第二轮 |
 |---|---|---|
 | 日期 | 2026-09-25 | 2026-09-26 |
-| 身份 | IAM 用户 `WorkBuddy`（AK/SK） | **root**（`aws login`，`arn:aws:iam::206482634625:root`） |
+| 身份 | IAM 用户 `WorkBuddy`（AK/SK） | **root**（`aws login`，`arn:aws:iam::2064****4625:root`） |
 | 工具 | Python 3.13.12 + boto3 1.43.101 | AWS CLI 2.37.3 |
 | 调用数 | 42 | 17 |
 | 成功 | **0** | **9** |
@@ -30,7 +30,7 @@ status: stable
 
 ```json
 {
-    "accountId": "206482634625",
+    "accountId": "2064****4625",
     "accountPlanType": "PAID",
     "accountPlanStatus": "ACTIVE",
     "accountPlanRemainingCredits": { "amount": 0.0, "unit": "USD" }
@@ -66,7 +66,7 @@ status: stable
 
 | 服务 | 操作 | 返回 |
 |---|---|---|
-| `sts` | `get-caller-identity` | `arn:aws:iam::206482634625:root` |
+| `sts` | `get-caller-identity` | `arn:aws:iam::2064****4625:root` |
 | `freetier` | `get-account-plan-state` | `PAID` / `ACTIVE` |
 | `freetier` | `get-free-tier-usage` | 多项 "Always Free" 用量 |
 | `freetier` | `list-account-activities` | `{"activities": []}` |

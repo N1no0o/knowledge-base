@@ -2,7 +2,7 @@
 title: EDR 立项汇报 PPT 索引（33 页 deck）
 tags: [EDR, 立项, PPT, 交付物索引, slidep]
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-28
 source: dist/华为公有云事件检测与响应-立项汇报/华为公有云事件检测与响应-立项汇报.pptx（201.3 KB，2026-09-21 22:52）｜原件 D:/AI/my_project/dist/华为公有云事件检测与响应-立项汇报/
 status: growing
 ---
@@ -29,7 +29,10 @@ status: growing
 | `DESIGN.md` | 25.3 KB | 视觉与版式设计稿 |
 | `EXPANSION-PLAN-v5.md` | 13.0 KB | 扩写方案工作稿（28 页 → 34 页的补页计划） |
 
-> ⚠️ 这三件属 **PPT 源材料**，按仓库 `AGENTS.md` §3.5 规则**不单独成笔记、不进账本**；建议由人工加入 `_kb_state/ignore.txt`。
+> 📌 **判定（2026-09-28，已拍板）**：这三件属 **PPT 源材料，不是独立交付物**，按 `AGENTS.md` §3.5
+> **不单独成笔记**；采用该节给出的**另一条路径 —— 只在既有笔记（本篇）里补链接**，
+> 因此**不加入 `_kb_state/ignore.txt`**（此前两次"建议加入 ignore.txt"的提议**作废**）。
+> 三件的源路径已在本篇登记，并在同步账本中记账（`note` 指向本篇），不再出现在待处理清单中。
 
 ## 三、主题定位
 
@@ -43,3 +46,4 @@ status: growing
 - [[EDR立项-AWS竞品分析资料包索引]] — 配套的 380 篇 AWS 竞品原始资料索引
 - [[华为云支持服务立项-AWS竞品对标]] — 竞品对标结论（含 IDR / DevOps Agent 定价）
 - [[huawei-support-four-proposals-deck]] — 同批「三级梯度 × 四项立项」汇报交付包
+- [[edr-proposal-bundles-index]] — 同批 6 个打包 zip 的版本索引与权威版判定

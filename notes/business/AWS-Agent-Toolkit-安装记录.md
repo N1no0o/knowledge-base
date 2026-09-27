@@ -4,7 +4,7 @@ tags: [AWS, Agent-Toolkit, MCP, aws-mcp, aws-login, WorkBuddy, 安装记录, 华
 created: 2026-09-26
 updated: 2026-09-26
 source: 官方 https://raw.githubusercontent.com/aws/agent-toolkit-for-aws/refs/heads/main/setup-instructions/setup.md｜本机实测
-status: stable
+status: evergreen
 ---
 
 # AWS Agent Toolkit · 安装与验证记录
@@ -20,9 +20,9 @@ status: stable
 | 操作系统 | Windows |
 | AWS CLI | **2.37.3** → `C:\Users\lichangzhao\AppData\Local\Programs\Amazon\AWSCLIV2\aws.exe`（用户级安装，免管理员） |
 | 认证方式 | `aws login`（浏览器授权，**未使用 AK/SK**） |
-| 身份 | **root** — `arn:aws:iam::206482634625:root` |
+| 身份 | **root** — `arn:aws:iam::2064****4625:root` |
 | Profile | `default`｜Region：`us-east-1` |
-| 凭据缓存 | `~/.aws/cli/cache/session.db`（SQLite）；`~/.aws/config` 里记 `login_session = arn:aws:iam::206482634625:root` |
+| 凭据缓存 | `~/.aws/cli/cache/session.db`（SQLite）；`~/.aws/config` 里记 `login_session = arn:aws:iam::2064****4625:root` |
 | 有效期 | **12 小时**；90 天内可免浏览器续期 |
 | 已装 skills | **24 个** AWS 官方 skill |
 | uv / uvx | uv 0.12.10 → `C:\Users\lichangzhao\.local\bin\uvx` |
@@ -80,8 +80,8 @@ Updated profile default to use arn:aws:sts::...:assumed-role/... credentials.
 ### Step 4 · 验证身份 ✔
 
 ```json
-{ "UserId": "206482634625", "Account": "206482634625",
-  "Arn": "arn:aws:iam::206482634625:root" }
+{ "UserId": "2064****4625", "Account": "2064****4625",
+  "Arn": "arn:aws:iam::2064****4625:root" }
 ```
 
 > ⭐ 注意：这是 **root** 身份，与第一轮 AK/SK 对应的 `user/WorkBuddy` 完全不同。

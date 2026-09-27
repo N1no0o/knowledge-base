@@ -4,7 +4,7 @@ tags: [AWS, 支持服务, 工具, Trusted Advisor, Health, Support API, SAW, 竞
 created: 2026-09-25
 updated: 2026-09-26
 source: AWS 官方文档（cloud-support-docs/aws/ 957 篇）+ 官网产品页 28 篇 + 真实 API 探测两轮（42 次 + 17 次）｜2026-09-25/26
-status: stable
+status: evergreen
 ---
 
 # AWS 支持服务配套工具体系 · 手册总览

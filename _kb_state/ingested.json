@@ -1,4 +1,16 @@
 {
+  "C盘与应用栏还原指南.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/tooling/windows-shortcut-ghost-cleanup.md",
+    "sha256": "af1d009a9120de5e4f54ecee4cbda436ebe2c5f083ccb1336484f728ec4cece0",
+    "size": 9309
+  },
+  "dist/AWS与阿里云支持服务文档.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/cloud-support-docs-corpus.md",
+    "sha256": "20349fd23f6728e0579a82ed2d7e19228eb9c6e8254600816de8b67a1a58a21e",
+    "size": 2567536
+  },
   "dist/AWS竞品分析资料包-20260921.zip": {
     "ingested_at": "2026-09-27 00:48",
     "note": "notes/business/EDR立项-AWS竞品分析资料包索引.md",
@@ -131,17 +143,107 @@
     "sha256": "cbc6f8ba3a0bde9fa80e92ea81290c1f11ca5aef5ca34aeb281dffcc95ea6937",
     "size": 14889
   },
+  "dist/cloud-support-docs.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/cloud-support-docs-corpus.md",
+    "sha256": "d9c3fd5440a4f1b40eecd6c5e3b418b3ead245962f56883d87cb4d2982f0b3ac",
+    "size": 34426822
+  },
+  "dist/deepseek-harness-desktop/安装记录.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/tooling/deepseek-harness-desktop-install.md",
+    "sha256": "e9b7b9a38b147fe14d8e2ffdf5355321f0498f49d2debb080bb8077984fecd00",
+    "size": 3924
+  },
+  "dist/huawei-cloud-立项材料/00-立项材料总览与准备路线图.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/华为云支持服务立项-总览.md",
+    "sha256": "a90b8f0acde715bb3d23401f94a9d0cfa1225425d492c5fa6b1a27554c609463",
+    "size": 12395
+  },
+  "dist/huawei-cloud-立项材料/01-产品立项报告-Charter.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/华为云支持服务立项-EDR产品定义.md",
+    "sha256": "87958151baa998ee02eb8ddbb7c87b849287fb09231ba5f3d139974637e8c411",
+    "size": 16051
+  },
+  "dist/huawei-cloud-立项材料/02-产品需求文档-PRD.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/华为云支持服务立项-EDR产品定义.md",
+    "sha256": "4e58bab4b7cefe2f6a1af6c2aef38c7a5702d5710dd56b7d3a8ac1d13aac64a8",
+    "size": 7212
+  },
+  "dist/huawei-cloud-立项材料/03-竞品与行业对标分析.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/华为云支持服务立项-AWS竞品对标.md",
+    "sha256": "0cabf67e312c5f416b1328eda2d47e3c997c5c78765369656ab8540765c60b00",
+    "size": 39140
+  },
+  "dist/huawei-cloud-立项材料/04-试点成效与证据清单.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/huawei-support-pilot-evidence.md",
+    "sha256": "0a878d4fc78553b4ef137e1a1a379ee03ca5ed0bf848c7a7b7078247e6672b30",
+    "size": 6503
+  },
+  "dist/huawei-cloud-立项材料/05-商业计划与成本模型.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/huawei-support-business-case.md",
+    "sha256": "63d406ce97fa30706513527ad658c609a50735f435e1de76182d569d33a13ade",
+    "size": 10698
+  },
+  "dist/huawei-cloud-立项材料/06-技术方案与架构.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/huawei-support-tech-architecture.md",
+    "sha256": "51b81dde9ff277d3bfd2892b24f00410b7fbb36ab5e446d53aa128e80e7c118c",
+    "size": 9767
+  },
+  "dist/huawei-cloud-立项材料/07-合规数据与风险评估.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/huawei-support-compliance-risk.md",
+    "sha256": "f526a6b7917c9a51e9f974440aa253066d6293939dcfebef8e6a210eee79fc7d",
+    "size": 6539
+  },
+  "dist/huawei-cloud-立项材料/08-企业优护计划的关系与定位.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/huawei-support-enterprise-care-plan.md",
+    "sha256": "1215872e02d3c8f9248d8bf950904f78f20184ac3839edaedd330a4ec9292d4b",
+    "size": 15091
+  },
+  "dist/huawei-cloud-立项材料/09-与内部实际方案的衔接.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/huawei-support-internal-alignment.md",
+    "sha256": "3124045b206f03efc32f9265a3f6f7540592f6ea0fe0ecafd2c37e08d3d31355",
+    "size": 4942
+  },
   "dist/huawei-cloud-立项材料/10-立项汇报PPT章节结构.md": {
     "ingested_at": "2026-09-27 01:03",
     "note": "notes/business/huawei-support-four-proposals-deck.md",
     "sha256": "6d4a39733ef45566e30aa5c50e73751d53573846d1b17fe1a240075ed600272e",
     "size": 12355
   },
+  "dist/huawei-cloud-立项材料/11-AWS竞品六维度速查.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/华为云支持服务立项-AWS竞品对标.md",
+    "sha256": "867ee6cc270df8a85097460b4d5c8be7a37b5732d54f54df714976fe893ad98e",
+    "size": 11988
+  },
+  "dist/huawei-cloud-立项材料/12-支持服务产品序列架构与立项组合.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/华为云支持服务立项-产品序列与收入路径.md",
+    "sha256": "fac81e8f7ef65074bc72ed2c19584987fd4ed6b410f91367f93cf85a16926da9",
+    "size": 21103
+  },
   "dist/huawei-cloud-立项材料/13-立项二三产品定义-VIP-TAC与昇腾950支持服务.md": {
     "ingested_at": "2026-09-27 01:03",
     "note": "notes/business/华为云支持服务立项-立项二三产品定义.md",
     "sha256": "1855dd62a0f0e911eeb7a7b6e7564e80939099ca5539bfe8b7f3f68f179ed86d",
     "size": 81863
+  },
+  "dist/proxy-node-rotation.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/infra/proxy-node-rotation-bundle.md",
+    "sha256": "28cc536d796d2aca9b7f252b16b31ca96c8797abe2eee34280fbd964045d51b4",
+    "size": 47354
   },
   "dist/raven-install/raven-install-report-2026-09-27.md": {
     "ingested_at": "2026-09-28 01:02",
@@ -155,16 +257,70 @@
     "sha256": "c1a997f0f8785284b1e2cdc0dac97783fead4c403f6d62bbb3f60e18c52da04d",
     "size": 7771
   },
+  "dist/华为云事件检测与响应-立项材料包.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-bundles-index.md",
+    "sha256": "93ce44d92aed293a18c4b154b26a24b074a99380661bcc355639833db39171aa",
+    "size": 46932
+  },
   "dist/华为云支持服务产品序列-四项立项汇报-20260921-v4.zip": {
     "ingested_at": "2026-09-27 01:03",
     "note": "notes/business/huawei-support-four-proposals-deck.md",
     "sha256": "6696bc1e92b72f9655e1ad63c6129ad274e3673d12926a9ace4cb53322acb7fa",
     "size": 223164
   },
+  "dist/华为公有云事件检测与响应-立项PPT-20260921-v2.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-bundles-index.md",
+    "sha256": "070439049fc52d93e9c2113ee126f70e47a02d3c443b64633b3a294e94d19373",
+    "size": 182336
+  },
+  "dist/华为公有云事件检测与响应-立项PPT-20260921-v3.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-bundles-index.md",
+    "sha256": "4b30398eb6b3a9e3cf973a2753565eedd7bcd50593837ca272111cd7ace3bcd0",
+    "size": 185529
+  },
+  "dist/华为公有云事件检测与响应-立项PPT-20260921.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-bundles-index.md",
+    "sha256": "8e53965587d16cf8a7156f6d50c08290665b8fe9b29baf4fae0ec36d9ea1a403",
+    "size": 188125
+  },
+  "dist/华为公有云事件检测与响应-立项汇报/DESIGN.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-deck-index.md",
+    "sha256": "6d270c843131297dbc32d3d4a7799b2e6a3627103edf63e6602b41748f1bb1ab",
+    "size": 25956
+  },
+  "dist/华为公有云事件检测与响应-立项汇报/EXPANSION-PLAN-v5.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-deck-index.md",
+    "sha256": "8f1c980f41c8e14b6ec3a397a0f58bfb87df7fbd7fa4934f8ed637ccf8c7834f",
+    "size": 13270
+  },
+  "dist/华为公有云事件检测与响应-立项汇报/STORY.md": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-deck-index.md",
+    "sha256": "e48a8047113511b6ac6b46dc578ce5768b093d74cf001c488db5597012af0563",
+    "size": 43652
+  },
   "dist/华为公有云事件检测与响应-立项汇报/华为公有云事件检测与响应-立项汇报.pptx": {
     "ingested_at": "2026-09-27 01:03",
     "note": "notes/business/edr-proposal-deck-index.md",
     "sha256": "781aea9cca9c56edf202436ab95cc5545c298a2fdae5c40d47db53df0bd2a2fc",
     "size": 206116
+  },
+  "dist/华为公有云事件检测与响应-立项资料全包-20260921-v2.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-bundles-index.md",
+    "sha256": "5a26b263192fe2bd24636f0172d33eb120c916638cb46098e2c41d43498e517a",
+    "size": 521275
+  },
+  "dist/华为公有云事件检测与响应-立项资料全包-20260921.zip": {
+    "ingested_at": "2026-09-28 07:42",
+    "note": "notes/business/edr-proposal-bundles-index.md",
+    "sha256": "a2d4fb186d8635835cc68cfb89423abf19891472bb643d34dbc0bbcbdcac31d7",
+    "size": 503296
   }
 }
