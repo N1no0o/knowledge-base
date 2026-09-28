@@ -452,7 +452,7 @@
       "四项立项"
     ],
     "status": "growing",
-    "updated": "2026-09-27",
+    "updated": "2026-09-29",
     "summary": "结论：本批立项汇报的战略视野从「单产品 EDR」提升到「三级梯度 × 四项立项」，deck 定稿 27 页（正文 26 + 备份 1）、汇报 30–35 分钟；…"
   },
   {
@@ -509,6 +509,45 @@
     "status": "growing",
     "updated": "2026-09-28",
     "summary": "一句话结论：技术论证的目标不是\"我们会造轮子\"，而是\"能做、成本可控、不重复造轮子\"——所以核心自研只保留三处（统一事件模型 / 聚合与路由引擎 / AI 场景…"
+  },
+  {
+    "title": "华为云支持计划三产品 BA 汇报 PPT 索引（32 页 deck）",
+    "path": "notes/business/huawei-support-three-product-ba-deck-index.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "华为云",
+      "立项",
+      "PPT",
+      "交付物索引",
+      "slidep",
+      "BA",
+      "三产品"
+    ],
+    "status": "growing",
+    "updated": "2026-09-29",
+    "summary": "结论：三产品 BA 差距分析与 TO BE 高阶方案设计 deck 已成稿，正文 31 页 + 备份 1 页 = 32 页，用 slidep DSL 生产（源为…"
+  },
+  {
+    "title": "华为云支持计划三产品 · BA 差距分析与 TO BE 高阶方案设计",
+    "path": "notes/business/huawei-support-three-product-ba-gap-tobe.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "华为云",
+      "立项",
+      "BA",
+      "业务架构",
+      "差距分析",
+      "价值流",
+      "三产品",
+      "EDR",
+      "通知能力",
+      "智算支持"
+    ],
+    "status": "growing",
+    "updated": "2026-09-29",
+    "summary": "一句话结论：三个产品不是三个独立产品，而是同一套底座的三个切面 —— EDR 负责「让事找到人」、通知能力负责「把话送到」、智算支持服务负责「在算力场景里把事办…"
   },
   {
     "title": "华为云支持服务立项 · AWS 竞品对标",
@@ -574,7 +613,7 @@
       "尊享级"
     ],
     "status": "growing",
-    "updated": "2026-09-28",
+    "updated": "2026-09-29",
     "summary": "一套支持服务（Support Service）产品的立项组合，核心是把华为公有云的"
   },
   {

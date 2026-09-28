@@ -2,7 +2,7 @@
 title: 华为云支持服务「三级梯度 × 四项立项」汇报交付包索引
 tags: [华为云, 立项, PPT, 交付物索引, 三级梯度, 四项立项]
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-09-29
 source: dist/华为云支持服务产品序列-四项立项汇报-20260921-v4.zip（217.9 KB，2026-09-21 20:04）+ dist/huawei-cloud-立项材料/10-立项汇报PPT章节结构.md（12.1 KB）｜原件 D:/AI/my_project/dist/
 status: growing
 ---
@@ -63,3 +63,5 @@ status: growing
 - [[华为云支持服务立项-材料清单与路线图]] — 15 篇立项材料导航
 - [[华为云支持服务立项-立项二三产品定义]] — 立项二/三的完整论证
 - [[edr-proposal-deck-index]] — 同批 EDR 单产品 deck（33 页）
+- [[huawei-support-three-product-ba-deck-index]] — 后续批次「三产品 BA 差距与 TO BE」deck（32 页，BA 视角）
+- [[huawei-support-three-product-ba-gap-tobe]] — 该 deck 的正文结论（差距 / TO BE 价值流 / 流程与人力诉求）

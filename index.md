@@ -1,9 +1,9 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-09-28 · 共 42 篇
+> 最后更新:2026-09-29 · 共 44 篇
 
-## 业务与立项(`business`) · 36 篇
+## 业务与立项(`business`) · 38 篇
 
 - [AWS Agent Toolkit · 安装与验证记录（2026-09-26）](notes/business/AWS-Agent-Toolkit-安装记录.md) — --- `evergreen`
 - [AWS 支持工具能力普查 · A/B/C/D 交叉审计结论](notes/business/aws-support-tooling-probe-audit.md) — 一句话结论：A（真伪）未发现伪造、C（越界）0 越界、D（面覆盖）抓出 2 个真实缺漏，但 B（可复现）因宿主 shell 崩溃而根本没执行——本轮验收的「可证… `growing`
@@ -39,6 +39,8 @@
 - [华为云支持服务立项 · 材料清单与路线图](notes/business/华为云支持服务立项-材料清单与路线图.md) — 理由：12 号给出全貌（三级梯度 × 四项立项），先立框架，再填内容， `growing`
 - [华为云支持服务立项 · 立项二三（VIP TAC 与 昇腾950）](notes/business/华为云支持服务立项-立项二三产品定义.md) — AWS Unified Operations（$50,000/月起）/ AWS IDR（$7,000/月起） `growing`
 - [华为云支持服务立项 · 试点成效与证据（美团/顺丰）](notes/business/huawei-support-pilot-evidence.md) — 一句话结论：04 号材料是整套立项里说服力最强的一份，但截至 2026-09-21 美团/顺丰双方数据全部为待补（⬜）——能立即拿出的唯一硬证据是《管理面数据链… `growing`
+- [华为云支持计划三产品 BA 汇报 PPT 索引（32 页 deck）](notes/business/huawei-support-three-product-ba-deck-index.md) — 结论：三产品 BA 差距分析与 TO BE 高阶方案设计 deck 已成稿，正文 31 页 + 备份 1 页 = 32 页，用 slidep DSL 生产（源为… `growing`
+- [华为云支持计划三产品 · BA 差距分析与 TO BE 高阶方案设计](notes/business/huawei-support-three-product-ba-gap-tobe.md) — 一句话结论：三个产品不是三个独立产品，而是同一套底座的三个切面 —— EDR 负责「让事找到人」、通知能力负责「把话送到」、智算支持服务负责「在算力场景里把事办… `growing`
 - [昇腾950立项 · 官方语料索引](notes/business/昇腾950立项-官方语料索引.md) — 已归档位置：D:/AI/my_project/cloud-support-docs/huawei/ `growing`
 - [竞品语料库 cloud-support-docs（打包快照索引）](notes/business/cloud-support-docs-corpus.md) — 一句话结论：cloud-support-docs/ 是立项竞品分析的一手语料库（AWS + 阿里云官方文档与产品页的全量抓取），因体量大而明确排除在知识库 Gi… `growing`
 

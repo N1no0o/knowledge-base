@@ -269,6 +269,30 @@
     "sha256": "6696bc1e92b72f9655e1ad63c6129ad274e3673d12926a9ace4cb53322acb7fa",
     "size": 223164
   },
+  "dist/华为云支持计划三产品-BA差距与TOBE-汇报/DESIGN.md": {
+    "ingested_at": "2026-09-29 01:02",
+    "note": "notes/business/huawei-support-three-product-ba-deck-index.md",
+    "sha256": "950959f20ded255838473dd3a0c46bfa89f6de55dc07ee0b6b102dfba847f383",
+    "size": 9310
+  },
+  "dist/华为云支持计划三产品-BA差距与TOBE-汇报/STORY.md": {
+    "ingested_at": "2026-09-29 01:02",
+    "note": "notes/business/huawei-support-three-product-ba-deck-index.md",
+    "sha256": "b9304a04cb2ee1c9c95749d54a8890ea98930f070bd17ca85fc4bbd729b60c2d",
+    "size": 10938
+  },
+  "dist/华为云支持计划三产品-BA差距与TOBE-汇报/华为云支持计划三产品-BA差距与TOBE-汇报-源文件.zip": {
+    "ingested_at": "2026-09-29 01:02",
+    "note": "notes/business/huawei-support-three-product-ba-deck-index.md",
+    "sha256": "ea611d5a752bfa15cba607e29d5c275f29e085e82ef89de0d2173278d5edd5ba",
+    "size": 93293
+  },
+  "dist/华为云支持计划三产品-BA差距与TOBE-汇报/华为云支持计划三产品-BA差距与TOBE-汇报.pptx": {
+    "ingested_at": "2026-09-29 01:02",
+    "note": "notes/business/huawei-support-three-product-ba-deck-index.md",
+    "sha256": "79801845c3a3ede73fa28ab8c316101f049e0ff45a5a4dbd1c98c27a21f40bcb",
+    "size": 234245
+  },
   "dist/华为公有云事件检测与响应-立项PPT-20260921-v2.zip": {
     "ingested_at": "2026-09-28 07:42",
     "note": "notes/business/edr-proposal-bundles-index.md",
