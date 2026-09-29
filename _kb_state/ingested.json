@@ -5,30 +5,6 @@
     "sha256": "af1d009a9120de5e4f54ecee4cbda436ebe2c5f083ccb1336484f728ec4cece0",
     "size": 9309
   },
-  "_multiagent/workspace/aws-support-tools-v2/defects.md": {
-    "ingested_at": "2026-09-30 01:17",
-    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
-    "sha256": "efbf9c1d4683800e7c5494df8219bbd4014c9d3e0738fe15ba2028e1b709c097",
-    "size": 11091
-  },
-  "_multiagent/workspace/aws-support-tools-v2/inventory_diff.md": {
-    "ingested_at": "2026-09-30 01:17",
-    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
-    "sha256": "6b0b61981f3ece02c344e73f88064a2cbc185d62d79d12cb0c434de87faded19",
-    "size": 1421
-  },
-  "_multiagent/workspace/aws-support-tools-v2/probe_audit.md": {
-    "ingested_at": "2026-09-30 01:17",
-    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
-    "sha256": "f3359dc93e350fd77f787d4dd559c47a7c8956d9b6bcda11aab8595472809440",
-    "size": 9197
-  },
-  "_multiagent/workspace/aws-support-tools-v2/v1_delta.md": {
-    "ingested_at": "2026-09-30 01:17",
-    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
-    "sha256": "fa6ee8014220892c6ec3c8161f307298f7030b977e3f5f2e0fef9340c01f8be4",
-    "size": 11061
-  },
   "deliverables/dsh-plugins/dsh-plugin-install-verified-2026-09-29.md": {
     "ingested_at": "2026-09-30 01:19",
     "note": "notes/tooling/dsh-plugin-ecosystem.md",
