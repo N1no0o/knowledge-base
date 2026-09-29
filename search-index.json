@@ -177,6 +177,43 @@
     "summary": "本地 Markdown 合计 6.4 MB，PDF 存档合计 39.4 MB。"
   },
   {
+    "title": "AWS Countdown / IDR / AMS 深度分析 v2 · 新旧模型质量对照与三条实质结论",
+    "path": "notes/business/aws-countdown-idr-ams-deep-dive-v2.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "Countdown",
+      "IDR",
+      "AMS",
+      "竞品分析",
+      "新模型对照",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：用新模型把 09-27（v1 旧模型）对同一批冻结语料的深度分析完整重做，三份报告评级 B/B/C → A/A/B、缺陷总数 21（P0 3）→ 1…"
+  },
+  {
+    "title": "AWS 支持服务全套重做 · 09-28 总览（凭据卡死轮次）",
+    "path": "notes/business/aws-support-full-rerun-overview.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "多agent",
+      "新模型对照",
+      "aws-login",
+      "进度总览",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：用新模型（gpt-6-astra）把 AWS 支持服务全套 4 条线重做，2 条跑通、2 条被 AWS 凭据卡死；跑通的两条各抓到 v1 一个真实错…"
+  },
+  {
     "title": "AWS 支持计划 33 项能力 × 四档逐项取值",
     "path": "notes/business/aws-support-plans-33-capabilities.md",
     "area": "business",
@@ -242,6 +279,24 @@
     "status": "growing",
     "updated": "2026-09-27",
     "summary": "结论：AWS 支持计划已于 re:Invent 2025 重构为四档（Basic / Business Support+ / Enterprise / Unif…"
+  },
+  {
+    "title": "AWS 支持服务全套重做 · 09-29 真实调用轮总览",
+    "path": "notes/business/aws-support-real-run-overview.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "多agent",
+      "编排",
+      "真实调用",
+      "进度总览",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：凭据恢复后把 09-28 被卡死的 A / C 两条线真跑通了 —— v1 的 4 条运行期结论首次被真跑证实、0 条被推翻；唯一负面项是 A 线 …"
   },
   {
     "title": "AWS 支持工具能力普查 · A/B/C/D 交叉审计结论",
@@ -333,6 +388,41 @@
     "summary": "一句话结论：对 130 条「只读且必填参数 >0」的操作自动补参后重跑，「实际被调用」从 3 条跃升到 124 条、service_error 从 2 条增到 …"
   },
   {
+    "title": "AWS 支持工具能力普查 v3 · 交付包与支撑件索引",
+    "path": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "交付包索引",
+      "证据链",
+      "本地原件",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：v3 真实调用轮交付件 = 1 份 HTML 报告（48.5 KB）+ 1 份同名 Markdown（24.1 KB），支撑件为工作区 aws-su…"
+  },
+  {
+    "title": "AWS 支持工具能力普查 · v3 真实调用轮结论",
+    "path": "notes/business/aws-support-tooling-probe-v3-realrun.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "工具面普查",
+      "真实调用",
+      "真触达率",
+      "证据链",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：v3 把 09-28 离线版里 6 项「本轮未做」全部补上，首次拿到真实 API 调用数据 —— 工具面 13 个命名空间 / 407 op / 2…"
+  },
+  {
     "title": "竞品语料库 cloud-support-docs（打包快照索引）",
     "path": "notes/business/cloud-support-docs-corpus.md",
     "area": "business",
@@ -348,6 +438,24 @@
     "status": "growing",
     "updated": "2026-09-28",
     "summary": "一句话结论：cloud-support-docs/ 是立项竞品分析的一手语料库（AWS + 阿里云官方文档与产品页的全量抓取），因体量大而明确排除在知识库 Gi…"
+  },
+  {
+    "title": "AWS 支持工具面实测与竞品分析 · 三堵墙与六家工具面全景",
+    "path": "notes/business/competitive-analysis-aws-support-tooling.md",
+    "area": "business",
+    "areaLabel": "业务与立项",
+    "tags": [
+      "AWS",
+      "支持服务",
+      "竞品分析",
+      "工具面普查",
+      "档位墙",
+      "Runbook",
+      "华为云支持服务立项"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：AWS 支持工具面的真实边界不在「有没有 API」，而在三堵墙 —— ①档位墙（核心工具卡 Business+ 起）②组织墙（14+ 条 Acces…"
   },
   {
     "title": "EDR 立项资料包 / 汇报 PPT 包 · 打包索引（6 个 zip）",
@@ -685,6 +793,24 @@
     "summary": "一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例…"
   },
   {
+    "title": "贵州茅台 600519 · 基本面与估值单维度分析（2026-09-30）",
+    "path": "notes/life/sh600519-fundamentals-2026-09-30.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "A股",
+      "贵州茅台",
+      "600519",
+      "基本面",
+      "估值",
+      "交易分析",
+      "NeoData"
+    ],
+    "status": "seedling",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：质地优质 · 估值低估 —— 属\"高质量、低增长型的类债券资产\"，但低估是对成长性转负的合理定价，修复需基本面企稳确认；成长性是唯一显著短板（五维评…"
+  },
+  {
     "title": "DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2",
     "path": "notes/tooling/deepseek-harness-desktop-install.md",
     "area": "tooling",
@@ -701,6 +827,23 @@
     "status": "growing",
     "updated": "2026-09-28",
     "summary": "一句话结论：装成功了，但整个过程最值得记住的不是产品本身，而是那个反直觉的坑 —— 在 Git Bash 里给 NSIS 安装器传 /D= 会被 MSYS 篡改…"
+  },
+  {
+    "title": "dsh 插件体系 · 版本兼容闸门与可安装清单",
+    "path": "notes/tooling/dsh-plugin-ecosystem.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "dsh",
+      "DeepSeek Harness",
+      "插件",
+      "semver",
+      "peerDependencies",
+      "工具链"
+    ],
+    "status": "growing",
+    "updated": "2026-09-30",
+    "summary": "一句话结论：桌面版 dsh（0.2.0-rc.2）装插件只能走「设置 → 插件」（Electron 进程级独占 profile，CLI 会被回滚）；插件锚定的是…"
   },
   {
     "title": "GitHub 初始化知识库的方案对比",

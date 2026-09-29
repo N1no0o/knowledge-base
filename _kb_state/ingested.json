@@ -5,6 +5,132 @@
     "sha256": "af1d009a9120de5e4f54ecee4cbda436ebe2c5f083ccb1336484f728ec4cece0",
     "size": 9309
   },
+  "_multiagent/workspace/aws-support-tools-v2/defects.md": {
+    "ingested_at": "2026-09-30 01:17",
+    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "sha256": "efbf9c1d4683800e7c5494df8219bbd4014c9d3e0738fe15ba2028e1b709c097",
+    "size": 11091
+  },
+  "_multiagent/workspace/aws-support-tools-v2/inventory_diff.md": {
+    "ingested_at": "2026-09-30 01:17",
+    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "sha256": "6b0b61981f3ece02c344e73f88064a2cbc185d62d79d12cb0c434de87faded19",
+    "size": 1421
+  },
+  "_multiagent/workspace/aws-support-tools-v2/probe_audit.md": {
+    "ingested_at": "2026-09-30 01:17",
+    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "sha256": "f3359dc93e350fd77f787d4dd559c47a7c8956d9b6bcda11aab8595472809440",
+    "size": 9197
+  },
+  "_multiagent/workspace/aws-support-tools-v2/v1_delta.md": {
+    "ingested_at": "2026-09-30 01:17",
+    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "sha256": "fa6ee8014220892c6ec3c8161f307298f7030b977e3f5f2e0fef9340c01f8be4",
+    "size": 11061
+  },
+  "deliverables/dsh-plugins/dsh-plugin-install-verified-2026-09-29.md": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/tooling/dsh-plugin-ecosystem.md",
+    "sha256": "c22d05841450c1771674705551669e64c96f4e8df64eb390b03a4dbf800bacba",
+    "size": 7513
+  },
+  "deliverables/dsh-plugins/dsh-plugin-recommendations-2026-09-29.md": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/tooling/dsh-plugin-ecosystem.md",
+    "sha256": "e3cd12dee31165a43a9121c57367d7ead41c37e3b3399b9c87a2a710e4343adb",
+    "size": 7899
+  },
+  "deliverables/product-strategy/aws-countdown-idr-ams-deep-dive-2026-09-27.html": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/business/aws-countdown-idr-ams-deep-dive-v2.md",
+    "sha256": "c2001e417063f1e1038b25353aaf54464b38891e20e40f162bce7d33fc55ec2b",
+    "size": 119291
+  },
+  "deliverables/product-strategy/aws-countdown-idr-ams-deep-dive-2026-09-27.md": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/business/aws-countdown-idr-ams-deep-dive-v2.md",
+    "sha256": "07bc398d0172a2c2ff3a7e34ea77aa05092eee60003db4e14d8a126417a386c4",
+    "size": 71567
+  },
+  "deliverables/product-strategy/aws-countdown-idr-ams-deep-dive-v2-2026-09-28.html": {
+    "ingested_at": "2026-09-30 01:18",
+    "note": "notes/business/aws-countdown-idr-ams-deep-dive-v2.md",
+    "sha256": "1e1e22332c0a6021de5c0b183a6a82062d93e89a1174ae71e2cc344f7c743b77",
+    "size": 294277
+  },
+  "deliverables/product-strategy/aws-countdown-idr-ams-deep-dive-v2-2026-09-28.md": {
+    "ingested_at": "2026-09-30 01:18",
+    "note": "notes/business/aws-countdown-idr-ams-deep-dive-v2.md",
+    "sha256": "ad90217c1260b3e7ca2d76628804797fcebd21f3e80d98c22995ed6aead458af",
+    "size": 199721
+  },
+  "deliverables/product-strategy/aws-support-full-rerun-overview-2026-09-28.md": {
+    "ingested_at": "2026-09-30 01:18",
+    "note": "notes/business/aws-support-full-rerun-overview.md",
+    "sha256": "865446cc6e8373de4106725daf5b7980a0300d7a577bc245d26c0ef5f8139538",
+    "size": 4723
+  },
+  "deliverables/product-strategy/aws-support-real-run-overview-2026-09-29.html": {
+    "ingested_at": "2026-09-30 01:18",
+    "note": "notes/business/aws-support-real-run-overview.md",
+    "sha256": "8a6bb238407337c4e52f7df1d0e0c949b3645f4a13be2713f34beeccf6aa7ae1",
+    "size": 18945
+  },
+  "deliverables/product-strategy/aws-support-real-run-overview-2026-09-29.md": {
+    "ingested_at": "2026-09-30 01:18",
+    "note": "notes/business/aws-support-real-run-overview.md",
+    "sha256": "c8a83206a49abefea258ae7db3338a013fea9494987d39a58f3192a5bb0ce999",
+    "size": 7722
+  },
+  "deliverables/product-strategy/aws-support-tooling-inventory-v2-2026-09-28.html": {
+    "ingested_at": "2026-09-30 01:16",
+    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "sha256": "6b4b0aee7770434ea3d51d8aed0303478522db032fc6eebff3e2c45e91b61ddc",
+    "size": 122101
+  },
+  "deliverables/product-strategy/aws-support-tooling-inventory-v2-2026-09-28.md": {
+    "ingested_at": "2026-09-30 01:16",
+    "note": "notes/business/aws-support-tooling-probe-v3-deck-index.md",
+    "sha256": "013cbf0e061ba7e2fcbb60b3b5d10603a0ef7b2a93aed246e04e0b68ca0fdb76",
+    "size": 72341
+  },
+  "deliverables/product-strategy/aws-support-tooling-inventory-v3-2026-09-29.html": {
+    "ingested_at": "2026-09-30 01:16",
+    "note": "notes/business/aws-support-tooling-probe-v3-realrun.md",
+    "sha256": "88199caa078bb6593a7b3aac256c6ca919efa11cd7397d80f584da2ff8237080",
+    "size": 48498
+  },
+  "deliverables/product-strategy/aws-support-tooling-inventory-v3-2026-09-29.md": {
+    "ingested_at": "2026-09-30 01:16",
+    "note": "notes/business/aws-support-tooling-probe-v3-realrun.md",
+    "sha256": "838de0238f682166fa08ccfb1467f83e99574736441755b1ed478b2fbc430abe",
+    "size": 24149
+  },
+  "deliverables/product-strategy/competitive-analysis-aws-support-tooling-2026-09-27.md": {
+    "ingested_at": "2026-09-30 01:18",
+    "note": "notes/business/competitive-analysis-aws-support-tooling.md",
+    "sha256": "5f46dc05107e609264f2d2226db9e1013beb634b918e8aa56ff29c4571208436",
+    "size": 35216
+  },
+  "deliverables/product-strategy/huawei-support-plan-ba-gap-and-tobe-2026-09-28.html": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/business/huawei-support-three-product-ba-gap-tobe.md",
+    "sha256": "f865d4dce4b15acc3605610cd95f84bba739dbfc127a67bec129c854f42ecc2b",
+    "size": 130818
+  },
+  "deliverables/product-strategy/huawei-support-plan-ba-gap-and-tobe-2026-09-28.md": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/business/huawei-support-three-product-ba-gap-tobe.md",
+    "sha256": "cb2a51247755e8651f1f0dcfd7da89238a647b2a1971da4856d8280f16d25ff2",
+    "size": 82281
+  },
+  "deliverables/trading-agent/sh600519-analysis-2026-09-30.html": {
+    "ingested_at": "2026-09-30 01:19",
+    "note": "notes/life/sh600519-fundamentals-2026-09-30.md",
+    "sha256": "2b9ef52aa16e2d81ae343b5d48aeb4f22e56ae13dbed7ba35596c523a3789f80",
+    "size": 23870
+  },
   "dist/AWS与阿里云支持服务文档.zip": {
     "ingested_at": "2026-09-28 07:42",
     "note": "notes/business/cloud-support-docs-corpus.md",

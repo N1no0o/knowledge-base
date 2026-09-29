@@ -40,9 +40,12 @@ PENDING = os.path.join(STATE_DIR, "pending.json")
 # ---------------------------------------------------------------- 扫描配置
 
 # 源：agent/工作区的产出目录。depth=1 表示只看该目录下一层，不递归。
+# ⚠️ 新增产出区目录时必须在此登记，否则整棵子树不会被扫描
+#    （2026-09-30 教训：deliverables/ 漏登记 ⇒ 18 件交付物长期落在扫描视野外）。
 SOURCE_ROOTS = [
     {"path": "D:/AI/my_project", "depth": 1, "label": "工作区根目录"},
     {"path": "D:/AI/my_project/dist", "depth": 99, "label": "dist 产出区"},
+    {"path": "D:/AI/my_project/deliverables", "depth": 99, "label": "deliverables 交付区"},
 ]
 
 # 目录名精确排除

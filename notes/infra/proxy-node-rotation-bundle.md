@@ -47,3 +47,5 @@ D:/AI/my_project/dist/proxy-node-rotation.zip          ← 打包件（权威快
 ## 相关
 
 - [[华为云支持服务立项-总览]] — 同一工作区产出，但属不同主题（本页为基础设施侧）
+- [[dsh-plugin-ecosystem]] — 同为本机工具链侧的资产登记；两页共同构成"本机自建能力"索引
+- [[github-knowledge-base-options]] — 知识库自身的搭建方案（本页所依据的归档规则的来源）

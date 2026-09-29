@@ -3,7 +3,7 @@ title: 华为云支持计划三产品 · BA 差距分析与 TO BE 高阶方案�
 tags: [华为云, 立项, BA, 业务架构, 差距分析, 价值流, 三产品, EDR, 通知能力, 智算支持]
 created: 2026-09-29
 updated: 2026-09-29
-source: dist/华为云支持计划三产品-BA差距与TOBE-汇报/华为云支持计划三产品-BA差距与TOBE-汇报.pptx（228.8 KB，2026-09-28 17:51，32 页）｜内容源 deliverables/product-strategy/huawei-support-plan-ba-gap-and-tobe-2026-09-28.md（82.3 KB）｜原件 D:/AI/my_project/dist/华为云支持计划三产品-BA差距与TOBE-汇报/
+source: dist/华为云支持计划三产品-BA差距与TOBE-汇报/华为云支持计划三产品-BA差距与TOBE-汇报.pptx（228.8 KB，2026-09-28 17:51，32 页）｜内容源 deliverables/product-strategy/huawei-support-plan-ba-gap-and-tobe-2026-09-28.md（80.4 KB）+ 同名 .html（127.8 KB）｜原件 D:/AI/my_project/deliverables/product-strategy/ 与 D:/AI/my_project/dist/华为云支持计划三产品-BA差距与TOBE-汇报/
 status: growing
 ---
 

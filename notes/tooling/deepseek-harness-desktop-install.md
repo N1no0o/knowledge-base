@@ -83,5 +83,6 @@ https://download.deepseek.com/dsh-desk/feeds/win-x64/nightly.yml
 
 ## 相关
 
+- [[dsh-plugin-ecosystem]] — 装完之后：插件版本兼容闸门、可安装清单与「设置 → 插件」唯一通路
 - [[raven-install-windows-native]] — 同为 Windows 工具链安装记录，两篇共通的教训是"**静默失败先怀疑参数传递/环境层，别先怀疑产品**"
 - [[windows-shortcut-ghost-cleanup]] — 同批 Windows 环境治理笔记

@@ -36,3 +36,5 @@ status: growing
 
 - 本仓库的落地规范见 `AGENTS.md`
 - 设计理由见 `_docs/architecture.md`
+- [[dsh-plugin-ecosystem]] — 本机工具链侧的资产登记（同属"本机自建能力"话题）
+- [[proxy-node-rotation-bundle]] — 按本方案「大二进制只写索引笔记」规则登记的一个实例
