@@ -18,3 +18,4 @@
 | 2026-09-30 | fix | 扫描器漏扫区 | **🔴 修复 `kb_scan.py` 的 `SOURCE_ROOTS` 漏登记 `deliverables/`** —— 该目录 18 件交付物长期落在扫描视野外（含核心交付件 v3 清单、竞品复盘、IDR 深挖、交易分析），此前四轮 sync 均未发现；补登后一次扫出 17 件待处理。教训：**新增产出区目录必须同步登记到 `SOURCE_ROOTS`**，否则整棵子树静默不可见 |
 | 2026-09-30 | ignore | 1 件 | 老板拍板 `dist/huawei-cloud-立项材料/13a-待确认问题代办拍板记录.md` **永久不入库**，已加入 `_kb_state/ignore.txt`（含未公开定价锚点与权重 70%/30%、成本分担 7:3 / 5:5、内部转移计价折扣 0.6–0.8，public 仓库不得入库亦不作脱敏摘要）；积压清零 |
 | 2026-09-30 | fix | 账本 -4 | 移除 4 条不在扫描区（`_multiagent/workspace/`）的误记账，账本 79 → 75 件，与「当前可扫描」完全对齐；这 4 件仍登记在 `aws-support-tooling-probe-v3-deck-index` 索引笔记内 |
+| 2026-10-01 | sync | 产出件 0 件 | §3.5 增量同步（第五次自动执行）：`kb_scan.py` 待处理 **0 件**，账本 75 / 可扫描 75 / 已消失 0；**未新建或更新任何笔记**（无可归档产出即不硬造）。独立复核：对 `D:/AI/my_project` 全树按 mtime 倒查 09-30 02:00 之后的 `.md/.pptx/.pdf/.xlsx/.zip/.docx/.csv` ⇒ 仅 1 文件命中，为 `.workbuddy/skills/*/automations/*/memory.md`（agent 自身记忆，设计上排除）⇒ **确认非漏扫假阴性**。lint：52 篇笔记，0 断链 / 0 孤儿 / 0 缺 source；状态 evergreen 4 / growing 47 / seedling 1 |
