@@ -811,6 +811,41 @@
     "summary": "一句话结论：质地优质 · 估值低估 —— 属\"高质量、低增长型的类债券资产\"，但低估是对成长性转负的合理定价，修复需基本面企稳确认；成长性是唯一显著短板（五维评…"
   },
   {
+    "title": "《高性价比人生指南》· 精华结论（HowToLiveBetter 结构化整理）",
+    "path": "notes/reading/howtolivebetter-high-value-life-guide.md",
+    "area": "reading",
+    "areaLabel": "阅读摘录",
+    "tags": [
+      "阅读摘录",
+      "生活决策",
+      "循证",
+      "健康",
+      "法律风险",
+      "个人理财",
+      "家庭财务",
+      "HowToLiveBetter"
+    ],
+    "status": "growing",
+    "updated": "2026-10-05",
+    "summary": "一句话结论：一本把人生拆成「成本 — 收益 — 证据等级」的循证决策手册 —— 34 章 654 条按性价比（不花钱 × 不花时间 × 不需毅力 × 收益落在自…"
+  },
+  {
+    "title": "《高性价比人生指南》交付包索引（合订本 / 精华版 / 速查表 / HTML）",
+    "path": "notes/reading/howtolivebetter-kit-index.md",
+    "area": "reading",
+    "areaLabel": "阅读摘录",
+    "tags": [
+      "阅读摘录",
+      "交付包索引",
+      "HowToLiveBetter",
+      "生活决策",
+      "二进制归档"
+    ],
+    "status": "growing",
+    "updated": "2026-10-05",
+    "summary": "一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi…"
+  },
+  {
     "title": "DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2",
     "path": "notes/tooling/deepseek-harness-desktop-install.md",
     "area": "tooling",

@@ -17,6 +17,30 @@
     "sha256": "e3cd12dee31165a43a9121c57367d7ead41c37e3b3399b9c87a2a710e4343adb",
     "size": 7899
   },
+  "deliverables/howtolivebetter/高性价比人生指南-完整合订本.md": {
+    "ingested_at": "2026-10-05 01:02",
+    "note": "notes/reading/howtolivebetter-kit-index.md",
+    "sha256": "f87772ab422af297db3f16002f886d381fdb0f7955f28a10290fc59fbada93bb",
+    "size": 1617251
+  },
+  "deliverables/howtolivebetter/高性价比人生指南-精华整理版.html": {
+    "ingested_at": "2026-10-05 01:02",
+    "note": "notes/reading/howtolivebetter-kit-index.md",
+    "sha256": "747be482c0c79d2a4b3861fa2373c6b7896e8aa928b0f491b12880f6877916ec",
+    "size": 131002
+  },
+  "deliverables/howtolivebetter/高性价比人生指南-精华整理版.md": {
+    "ingested_at": "2026-10-05 01:02",
+    "note": "notes/reading/howtolivebetter-high-value-life-guide.md",
+    "sha256": "24bf62ea924b2a71e47e0794fcc1b9fd7b60123163d0be089a430deaced131d9",
+    "size": 114905
+  },
+  "deliverables/howtolivebetter/高性价比人生指南-速查表.xlsx": {
+    "ingested_at": "2026-10-05 01:02",
+    "note": "notes/reading/howtolivebetter-kit-index.md",
+    "sha256": "6430ae0ba112af5aec667e19c26a995d73ce98f3c2c26fff302fe095c646b5e6",
+    "size": 717745
+  },
   "deliverables/product-strategy/aws-countdown-idr-ams-deep-dive-2026-09-27.html": {
     "ingested_at": "2026-09-30 01:19",
     "note": "notes/business/aws-countdown-idr-ams-deep-dive-v2.md",

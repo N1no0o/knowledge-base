@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-10-04 · 共 52 篇
+> 最后更新:2026-10-05 · 共 54 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -63,8 +63,13 @@
 - [dsh 插件体系 · 版本兼容闸门与可安装清单](notes/tooling/dsh-plugin-ecosystem.md) — 一句话结论：桌面版 dsh（0.2.0-rc.2）装插件只能走「设置 → 插件」（Electron 进程级独占 profile，CLI 会被回滚）；插件锚定的是… `growing`
 - [技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）](notes/tooling/skill-env-consistency-audit-20260927.md) — 一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra… `growing`
 
+## 阅读摘录(`reading`) · 2 篇
+
+- [《高性价比人生指南》· 精华结论（HowToLiveBetter 结构化整理）](notes/reading/howtolivebetter-high-value-life-guide.md) — 一句话结论：一本把人生拆成「成本 — 收益 — 证据等级」的循证决策手册 —— 34 章 654 条按性价比（不花钱 × 不花时间 × 不需毅力 × 收益落在自… `growing`
+- [《高性价比人生指南》交付包索引（合订本 / 精华版 / 速查表 / HTML）](notes/reading/howtolivebetter-kit-index.md) — 一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi… `growing`
+
 ## 生活与资料(`life`) · 1 篇
 
 - [贵州茅台 600519 · 基本面与估值单维度分析（2026-09-30）](notes/life/sh600519-fundamentals-2026-09-30.md) — 一句话结论：质地优质 · 估值低估 —— 属"高质量、低增长型的类债券资产"，但低估是对成长性转负的合理定价，修复需基本面企稳确认；成长性是唯一显著短板（五维评… `seedling`
 
-> 空领域(待填充):`ai`, `reading`
+> 空领域(待填充):`ai`
