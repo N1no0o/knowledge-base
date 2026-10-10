@@ -472,5 +472,29 @@
     "note": "notes/business/edr-proposal-bundles-index.md",
     "sha256": "a2d4fb186d8635835cc68cfb89423abf19891472bb643d34dbc0bbcbdcac31d7",
     "size": 503296
+  },
+  "quant/output/backtest_report.html": {
+    "ingested_at": "2026-10-11 01:01",
+    "note": "notes/life/ashare-quant-backtest-findings.md",
+    "sha256": "ae3bac890797352862576640f344b5ed5778ec6a66de1c7196e8cab1e6a91bb7",
+    "size": 215743
+  },
+  "quant/output/nav.csv": {
+    "ingested_at": "2026-10-11 01:01",
+    "note": "notes/life/ashare-quant-backtest-kit-index.md",
+    "sha256": "eb77bc8972a879f1c18a8afce6e31e01e645045d1e9cefa6ac9874737a1fa4c0",
+    "size": 42858
+  },
+  "quant/output/trades.csv": {
+    "ingested_at": "2026-10-11 01:01",
+    "note": "notes/life/ashare-quant-backtest-kit-index.md",
+    "sha256": "42dff0fbc82fb6040d97c9a75c4d0185976066f59076932d13e6c045200702eb",
+    "size": 19272
+  },
+  "quant/output/weights.csv": {
+    "ingested_at": "2026-10-11 01:01",
+    "note": "notes/life/ashare-quant-backtest-kit-index.md",
+    "sha256": "7fc4e8d7151041996d6509d9ffbaa0bb7c78b059b004f3401743cf60350b030b",
+    "size": 112748
   }
 }

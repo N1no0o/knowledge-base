@@ -793,6 +793,42 @@
     "summary": "一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例…"
   },
   {
+    "title": "A 股日频多因子回测 · 实测结论（亏损主因是换手成本，不是因子无效）",
+    "path": "notes/life/ashare-quant-backtest-findings.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "A股",
+      "量化",
+      "回测",
+      "多因子",
+      "换手成本",
+      "交易成本",
+      "因子有效性",
+      "ICIR"
+    ],
+    "status": "growing",
+    "updated": "2026-10-11",
+    "summary": "一句话结论：这套纯量价多因子在 12 只蓝筹上没有预测力（ICIR 仅 0.036，远低于 0.3 可用阈值）——但真正的杀手不是因子弱，而是换手成本：同样因子…"
+  },
+  {
+    "title": "A 股量化回测框架 · 交付包与产物索引",
+    "path": "notes/life/ashare-quant-backtest-kit-index.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "A股",
+      "量化",
+      "回测框架",
+      "交付包索引",
+      "产物清单",
+      "python"
+    ],
+    "status": "growing",
+    "updated": "2026-10-11",
+    "summary": "一句话结论：这是一套约 700 行、不依赖重量级框架的 A 股日频多因子回测系统（4 个源码模块 + 自检探针 + 4 张图 + HTML 报告）；结论见 as…"
+  },
+  {
     "title": "贵州茅台 600519 · 基本面与估值单维度分析（2026-09-30）",
     "path": "notes/life/sh600519-fundamentals-2026-09-30.md",
     "area": "life",

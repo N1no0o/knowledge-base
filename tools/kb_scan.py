@@ -46,6 +46,7 @@ SOURCE_ROOTS = [
     {"path": "D:/AI/my_project", "depth": 1, "label": "工作区根目录"},
     {"path": "D:/AI/my_project/dist", "depth": 99, "label": "dist 产出区"},
     {"path": "D:/AI/my_project/deliverables", "depth": 99, "label": "deliverables 交付区"},
+    {"path": "D:/AI/my_project/quant", "depth": 99, "label": "quant 量化回测产出区"},
 ]
 
 # 目录名精确排除
