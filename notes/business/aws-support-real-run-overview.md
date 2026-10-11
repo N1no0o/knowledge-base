@@ -84,6 +84,7 @@ status: growing
 - [[aws-support-tooling-probe-v3-realrun]] — A 线 v3 结论正文
 - [[aws-support-tooling-probe-v3-deck-index]] — A 线交付包索引
 - [[aws-support-full-rerun-overview]] — 上一轮（09-28）总览
+- [[aws-cli-root-session-keepalive]] — root 登录态长期保活方案（10-11 定案）
 - [[aws-countdown-idr-ams-deep-dive-v2]] — B 线 v2 深挖
 - [[competitive-analysis-aws-support-tooling]] — 同批的竞品分析（含六家工具面全景）
 - [[aws-support-plans-33-capabilities]] — C 线的前身（33 项 × 四档，09-27 存档）

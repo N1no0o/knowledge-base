@@ -882,6 +882,24 @@
     "summary": "一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi…"
   },
   {
+    "title": "AWS CLI root 长期登录态保活方案（2026-10-11 实测定案）",
+    "path": "notes/tooling/aws-cli-root-session-keepalive.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "AWS",
+      "aws-login",
+      "凭据保活",
+      "refreshToken",
+      "automation",
+      "沙箱约束",
+      "排障"
+    ],
+    "status": "growing",
+    "updated": "2026-10-12",
+    "summary": "一句话结论：aws login 拿到的 root 登录态不需要任何\"保活进程\"——它的 accessToken 15 分钟过期是 STS 设计，CLI 会用长效…"
+  },
+  {
     "title": "DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2",
     "path": "notes/tooling/deepseek-harness-desktop-install.md",
     "area": "tooling",

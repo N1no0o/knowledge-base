@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-10-11 · 共 56 篇
+> 最后更新:2026-10-12 · 共 57 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -54,8 +54,9 @@
 
 - [代理节点轮换技能（proxy-node-rotation）打包索引](notes/infra/proxy-node-rotation-bundle.md) — 一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例… `growing`
 
-## 工具链与自动化(`tooling`) · 6 篇
+## 工具链与自动化(`tooling`) · 7 篇
 
+- [AWS CLI root 长期登录态保活方案（2026-10-11 实测定案）](notes/tooling/aws-cli-root-session-keepalive.md) — 一句话结论：aws login 拿到的 root 登录态不需要任何"保活进程"——它的 accessToken 15 分钟过期是 STS 设计，CLI 会用长效… `growing`
 - [DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2](notes/tooling/deepseek-harness-desktop-install.md) — 一句话结论：装成功了，但整个过程最值得记住的不是产品本身，而是那个反直觉的坑 —— 在 Git Bash 里给 NSIS 安装器传 /D= 会被 MSYS 篡改… `growing`
 - [GitHub 初始化知识库的方案对比](notes/tooling/github-knowledge-base-options.md) — 最值得抄的不是某个笔记软件，而是 TIL（Today I Learned）范式——直接把 GitHub 仓库当知识库，因为 GitHub 已免费提供文件系统、M… `growing`
 - [Raven（Windows 原生）安装与卸载记录 · v0.2.3](notes/tooling/raven-install-windows-native.md) — 一句话结论：Raven v0.2.3 在 Windows 上用 uv tool install 装成功、四个内置插件全部 activated；真正的坑不在 Ra… `growing`

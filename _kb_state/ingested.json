@@ -5,6 +5,18 @@
     "sha256": "af1d009a9120de5e4f54ecee4cbda436ebe2c5f083ccb1336484f728ec4cece0",
     "size": 9309
   },
+  "_aws_cache/AWS-长期登录态方案.md": {
+    "ingested_at": "2026-10-12 01:02",
+    "note": "notes/tooling/aws-cli-root-session-keepalive.md",
+    "sha256": "82903a3c498966075cd5508fd3c6982f8e6cef4e7cc315a41a733381714033db",
+    "size": 4593
+  },
+  "_aws_cache/root-长期登录态方案.md": {
+    "ingested_at": "2026-10-12 01:02",
+    "note": "notes/tooling/aws-cli-root-session-keepalive.md",
+    "sha256": "b59a1069cd6c76a53b88650170ac00121adfdfcaefe5b0c1ffe0a798bbb7bca1",
+    "size": 11014
+  },
   "deliverables/dsh-plugins/dsh-plugin-install-verified-2026-09-29.md": {
     "ingested_at": "2026-09-30 01:19",
     "note": "notes/tooling/dsh-plugin-ecosystem.md",

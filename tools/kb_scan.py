@@ -47,7 +47,12 @@ SOURCE_ROOTS = [
     {"path": "D:/AI/my_project/dist", "depth": 99, "label": "dist 产出区"},
     {"path": "D:/AI/my_project/deliverables", "depth": 99, "label": "deliverables 交付区"},
     {"path": "D:/AI/my_project/quant", "depth": 99, "label": "quant 量化回测产出区"},
+    {"path": "D:/AI/my_project/_aws_cache", "depth": 1, "label": "_aws_cache 产出区"},
 ]
+
+# 目录名以 `_`/`.` 开头默认被 EXCLUDE_DIR_RE 排除；但要扫描的 root 自身名可能也带 `_`
+# （如 _aws_cache）⇒ 在此显式放行，只对 root 的第一层生效，不放开其下所有 `_` 目录。
+ROOT_NAME_ALLOW = {"_aws_cache"}
 
 # 目录名精确排除
 EXCLUDE_DIRS = {
@@ -143,8 +148,10 @@ def collect() -> list:
             if cur_depth >= depth_max:
                 dirs[:] = []
             else:
+                allow = ROOT_NAME_ALLOW if cur_depth == 0 else set()
                 dirs[:] = [d for d in dirs
-                           if d not in EXCLUDE_DIRS and not EXCLUDE_DIR_RE.match(d)]
+                           if d not in EXCLUDE_DIRS
+                           and (not EXCLUDE_DIR_RE.match(d) or d in allow)]
             for fn in files:
                 if fn in EXCLUDE_FILES:
                     continue
