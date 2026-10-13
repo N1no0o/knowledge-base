@@ -2,7 +2,7 @@
 title: 技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）
 tags: [Skill, 技能体检, hook, WorkBuddy, codex, 多agent, 工具链]
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-14
 source: D:/AI/my_project/dist/skill-audit/技能一致性体检-2026-09-27.md（2026-09-27）
 status: growing
 ---
@@ -75,3 +75,4 @@ status: growing
 
 - [[raven-install-windows-native]] — 同批「本机工具链」实测，方法一致（逐条实测取代自述）
 - [[github-knowledge-base-options]] — 同一环境下的通路选型记录
+- [[reverse-engineer-anything-skill-audit]] — 同类「技能/工具准入」判断，但轴不同：那篇查的是**安全与信任信号**（恶意模式五轴 + 热度造假识别）

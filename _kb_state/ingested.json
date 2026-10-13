@@ -17,6 +17,12 @@
     "sha256": "b59a1069cd6c76a53b88650170ac00121adfdfcaefe5b0c1ffe0a798bbb7bca1",
     "size": 11014
   },
+  "_rea_audit/REA-skill-audit-2026-10-13.md": {
+    "ingested_at": "2026-10-14 01:03",
+    "note": "notes/tooling/reverse-engineer-anything-skill-audit.md",
+    "sha256": "a343d0bd2c799c87975e1f951ce94cbd97c73194fafbe714dac2fb3dbcd0f726",
+    "size": 8346
+  },
   "deliverables/dsh-plugins/dsh-plugin-install-verified-2026-09-29.md": {
     "ingested_at": "2026-09-30 01:19",
     "note": "notes/tooling/dsh-plugin-ecosystem.md",
@@ -484,6 +490,24 @@
     "note": "notes/business/edr-proposal-bundles-index.md",
     "sha256": "a2d4fb186d8635835cc68cfb89423abf19891472bb643d34dbc0bbcbdcac31d7",
     "size": 503296
+  },
+  "hiking-50/index.html": {
+    "ingested_at": "2026-10-14 01:03",
+    "note": "notes/life/hiking-china-50-routes-gpx-pack.md",
+    "sha256": "1a2bbfc603e648305886589f33f14baa7f2a92d31ba2a395ced3ad31d2965029",
+    "size": 27429
+  },
+  "hiking-50/index.md": {
+    "ingested_at": "2026-10-14 01:03",
+    "note": "notes/life/hiking-china-50-routes-gpx-pack.md",
+    "sha256": "907b14253dcd148f1ecfc44e0b44f5681f9a90de035d396d058559fd7a2311a5",
+    "size": 10042
+  },
+  "hiking-50/徒步中国50条路线-公开轨迹包.zip": {
+    "ingested_at": "2026-10-14 01:03",
+    "note": "notes/life/hiking-china-50-routes-kit-index.md",
+    "sha256": "5c97fb3ac11856728f95040aae479c6464c86013bc3ed4cc70dfa217aba6f3e2",
+    "size": 1026384
   },
   "quant/output/backtest_report.html": {
     "ingested_at": "2026-10-11 01:01",

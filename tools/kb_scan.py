@@ -48,11 +48,12 @@ SOURCE_ROOTS = [
     {"path": "D:/AI/my_project/deliverables", "depth": 99, "label": "deliverables 交付区"},
     {"path": "D:/AI/my_project/quant", "depth": 99, "label": "quant 量化回测产出区"},
     {"path": "D:/AI/my_project/_aws_cache", "depth": 1, "label": "_aws_cache 产出区"},
+    {"path": "D:/AI/my_project/_rea_audit", "depth": 1, "label": "_rea_audit 技能审计产出区"},
 ]
 
 # 目录名以 `_`/`.` 开头默认被 EXCLUDE_DIR_RE 排除；但要扫描的 root 自身名可能也带 `_`
-# （如 _aws_cache）⇒ 在此显式放行，只对 root 的第一层生效，不放开其下所有 `_` 目录。
-ROOT_NAME_ALLOW = {"_aws_cache"}
+# （如 _aws_cache / _rea_audit）⇒ 在此显式放行，只对 root 的第一层生效，不放开其下所有 `_` 目录。
+ROOT_NAME_ALLOW = {"_aws_cache", "_rea_audit"}
 
 # 目录名精确排除
 EXCLUDE_DIRS = {
@@ -75,7 +76,10 @@ EXCLUDE_FILE_RE = re.compile(
     r"_bak|bak-\d|before\d+|^00-.*说明|下载清单|^welcome_tmp)"
 )
 # 明确不是产出件的固定文件名
-EXCLUDE_FILES = {"AGENTS.md", "CLAUDE.md", "README.md", "SKILL.md", ".gitkeep", ".gitignore"}
+# ⚠️ SECURITY.md / DISCLAIMER.md 于 2026-10-14 加入：_rea_audit/ 下这两份是**上游技能包自带文档**
+#    （morluto/rea 仓库原文，英文），与 README.md / SKILL.md 同性质，非本工作区产出件。
+EXCLUDE_FILES = {"AGENTS.md", "CLAUDE.md", "README.md", "SKILL.md", ".gitkeep", ".gitignore",
+                 "SECURITY.md", "DISCLAIMER.md"}
 
 # 大文件阈值：超过则笔记里只记路径（不进 Git）
 BIG_BYTES = 1 * 1024 * 1024

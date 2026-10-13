@@ -829,6 +829,42 @@
     "summary": "一句话结论：这是一套约 700 行、不依赖重量级框架的 A 股日频多因子回测系统（4 个源码模块 + 自检探针 + 4 张图 + HTML 报告）；结论见 as…"
   },
   {
+    "title": "《徒步中国》50 条路线 · 公开轨迹包（结论篇）",
+    "path": "notes/life/hiking-china-50-routes-gpx-pack.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "徒步",
+      "GPX",
+      "轨迹",
+      "开放数据",
+      "OpenStreetMap",
+      "ODbL",
+      "中国香港四径",
+      "户外"
+    ],
+    "status": "growing",
+    "updated": "2026-10-14",
+    "summary": "一句话结论：拿一本徒步书（《徒步中国》西苑出版社 2026-01，ISBN 9787515110578）的 50 条公开路线名，去匹配公开开源轨迹，最终 20 …"
+  },
+  {
+    "title": "《徒步中国》50 条路线轨迹包 · 交付包与产物索引",
+    "path": "notes/life/hiking-china-50-routes-kit-index.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "徒步",
+      "GPX",
+      "交付包索引",
+      "产物清单",
+      "开放数据",
+      "户外"
+    ],
+    "status": "growing",
+    "updated": "2026-10-14",
+    "summary": "一句话结论：这是一个「路线索引页 + 轨迹文件 + 打包 zip」三件式交付包（合计约 7.7 MB，zip 1.0 MB / 52 条目）；结论见 hikin…"
+  },
+  {
     "title": "贵州茅台 600519 · 基本面与估值单维度分析（2026-09-30）",
     "path": "notes/life/sh600519-fundamentals-2026-09-30.md",
     "area": "life",
@@ -968,6 +1004,24 @@
     "summary": "一句话结论：Raven v0.2.3 在 Windows 上用 uv tool install 装成功、四个内置插件全部 activated；真正的坑不在 Ra…"
   },
   {
+    "title": "REA（Reverse Engineer Anything）技能调研与安全审计（2026-10-13）",
+    "path": "notes/tooling/reverse-engineer-anything-skill-audit.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "skill安全审计",
+      "逆向工程",
+      "MCP",
+      "供应链安全",
+      "热度造假",
+      "rea",
+      "工具选型"
+    ],
+    "status": "growing",
+    "updated": "2026-10-14",
+    "summary": "一句话结论：morluto/rea（npm rea-agents 6.4.0，MIT）技术侧是真货、热度侧是造假 ⇒ 评级 CAUTION 而非 DANGER；…"
+  },
+  {
     "title": "技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）",
     "path": "notes/tooling/skill-env-consistency-audit-20260927.md",
     "area": "tooling",
@@ -982,7 +1036,7 @@
       "工具链"
     ],
     "status": "growing",
-    "updated": "2026-09-28",
+    "updated": "2026-10-14",
     "summary": "一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra…"
   },
   {

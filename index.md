@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-10-13 · 共 57 篇
+> 最后更新:2026-10-14 · 共 60 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -54,11 +54,12 @@
 
 - [代理节点轮换技能（proxy-node-rotation）打包索引](notes/infra/proxy-node-rotation-bundle.md) — 一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例… `growing`
 
-## 工具链与自动化(`tooling`) · 7 篇
+## 工具链与自动化(`tooling`) · 8 篇
 
 - [AWS CLI root 长期登录态保活方案（2026-10-11 实测定案）](notes/tooling/aws-cli-root-session-keepalive.md) — 一句话结论：aws login 拿到的 root 登录态不需要任何"保活进程"——它的 accessToken 15 分钟过期是 STS 设计，CLI 会用长效… `growing`
 - [DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2](notes/tooling/deepseek-harness-desktop-install.md) — 一句话结论：装成功了，但整个过程最值得记住的不是产品本身，而是那个反直觉的坑 —— 在 Git Bash 里给 NSIS 安装器传 /D= 会被 MSYS 篡改… `growing`
 - [GitHub 初始化知识库的方案对比](notes/tooling/github-knowledge-base-options.md) — 最值得抄的不是某个笔记软件，而是 TIL（Today I Learned）范式——直接把 GitHub 仓库当知识库，因为 GitHub 已免费提供文件系统、M… `growing`
+- [REA（Reverse Engineer Anything）技能调研与安全审计（2026-10-13）](notes/tooling/reverse-engineer-anything-skill-audit.md) — 一句话结论：morluto/rea（npm rea-agents 6.4.0，MIT）技术侧是真货、热度侧是造假 ⇒ 评级 CAUTION 而非 DANGER；… `growing`
 - [Raven（Windows 原生）安装与卸载记录 · v0.2.3](notes/tooling/raven-install-windows-native.md) — 一句话结论：Raven v0.2.3 在 Windows 上用 uv tool install 装成功、四个内置插件全部 activated；真正的坑不在 Ra… `growing`
 - [Windows 断链快捷方式与「应用栏鬼影」清理指南](notes/tooling/windows-shortcut-ghost-cleanup.md) — 一句话结论：点图标没反应 / 报"找不到文件"、以及"设置→应用里卸不掉"，根因都不是"隐藏属性"，而是两类残留——快捷方式指着已不存在的路径、卸载器删了文件却… `growing`
 - [dsh 插件体系 · 版本兼容闸门与可安装清单](notes/tooling/dsh-plugin-ecosystem.md) — 一句话结论：桌面版 dsh（0.2.0-rc.2）装插件只能走「设置 → 插件」（Electron 进程级独占 profile，CLI 会被回滚）；插件锚定的是… `growing`
@@ -69,10 +70,12 @@
 - [《高性价比人生指南》· 精华结论（HowToLiveBetter 结构化整理）](notes/reading/howtolivebetter-high-value-life-guide.md) — 一句话结论：一本把人生拆成「成本 — 收益 — 证据等级」的循证决策手册 —— 34 章 654 条按性价比（不花钱 × 不花时间 × 不需毅力 × 收益落在自… `growing`
 - [《高性价比人生指南》交付包索引（合订本 / 精华版 / 速查表 / HTML）](notes/reading/howtolivebetter-kit-index.md) — 一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi… `growing`
 
-## 生活与资料(`life`) · 3 篇
+## 生活与资料(`life`) · 5 篇
 
 - [A 股日频多因子回测 · 实测结论（亏损主因是换手成本，不是因子无效）](notes/life/ashare-quant-backtest-findings.md) — 一句话结论：这套纯量价多因子在 12 只蓝筹上没有预测力（ICIR 仅 0.036，远低于 0.3 可用阈值）——但真正的杀手不是因子弱，而是换手成本：同样因子… `growing`
 - [A 股量化回测框架 · 交付包与产物索引](notes/life/ashare-quant-backtest-kit-index.md) — 一句话结论：这是一套约 700 行、不依赖重量级框架的 A 股日频多因子回测系统（4 个源码模块 + 自检探针 + 4 张图 + HTML 报告）；结论见 as… `growing`
+- [《徒步中国》50 条路线 · 公开轨迹包（结论篇）](notes/life/hiking-china-50-routes-gpx-pack.md) — 一句话结论：拿一本徒步书（《徒步中国》西苑出版社 2026-01，ISBN 9787515110578）的 50 条公开路线名，去匹配公开开源轨迹，最终 20 … `growing`
+- [《徒步中国》50 条路线轨迹包 · 交付包与产物索引](notes/life/hiking-china-50-routes-kit-index.md) — 一句话结论：这是一个「路线索引页 + 轨迹文件 + 打包 zip」三件式交付包（合计约 7.7 MB，zip 1.0 MB / 52 条目）；结论见 hikin… `growing`
 - [贵州茅台 600519 · 基本面与估值单维度分析（2026-09-30）](notes/life/sh600519-fundamentals-2026-09-30.md) — 一句话结论：质地优质 · 估值低估 —— 属"高质量、低增长型的类债券资产"，但低估是对成长性转负的合理定价，修复需基本面企稳确认；成长性是唯一显著短板（五维评… `seedling`
 
 > 空领域(待填充):`ai`
