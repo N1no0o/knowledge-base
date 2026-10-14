@@ -829,6 +829,22 @@
     "summary": "一句话结论：这是一套约 700 行、不依赖重量级框架的 A 股日频多因子回测系统（4 个源码模块 + 自检探针 + 4 张图 + HTML 报告）；结论见 as…"
   },
   {
+    "title": "CS2 蝴蝶刀价格走势（2026-10-14）：7 月起持续回落，近 7 天全线下跌",
+    "path": "notes/life/cs2-butterfly-knife-price-trend-2026-10-14.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "CS2",
+      "饰品行情",
+      "价格走势",
+      "行情整理",
+      "数据可视化"
+    ],
+    "status": "growing",
+    "updated": "2026-10-15",
+    "summary": "本页为公开行情整理，不构成投资建议；饰品价格受 Valve 政策变动影响极大，可能单日剧烈波动。"
+  },
+  {
     "title": "《徒步中国》50 条路线 · 公开轨迹包（结论篇）",
     "path": "notes/life/hiking-china-50-routes-gpx-pack.md",
     "area": "life",
@@ -879,7 +895,7 @@
       "NeoData"
     ],
     "status": "seedling",
-    "updated": "2026-09-30",
+    "updated": "2026-10-15",
     "summary": "一句话结论：质地优质 · 估值低估 —— 属\"高质量、低增长型的类债券资产\"，但低估是对成长性转负的合理定价，修复需基本面企稳确认；成长性是唯一显著短板（五维评…"
   },
   {

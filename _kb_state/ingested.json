@@ -23,6 +23,12 @@
     "sha256": "a343d0bd2c799c87975e1f951ce94cbd97c73194fafbe714dac2fb3dbcd0f726",
     "size": 8346
   },
+  "deliverables/cs2-butterfly-knife-price-trend-2026-10-14.html": {
+    "ingested_at": "2026-10-15 01:01",
+    "note": "notes/life/cs2-butterfly-knife-price-trend-2026-10-14.md",
+    "sha256": "67dd762dab428b5a8d2519b27d1e6c106a5f298d68fd28f314f3b991126801a5",
+    "size": 11148
+  },
   "deliverables/dsh-plugins/dsh-plugin-install-verified-2026-09-29.md": {
     "ingested_at": "2026-09-30 01:19",
     "note": "notes/tooling/dsh-plugin-ecosystem.md",
