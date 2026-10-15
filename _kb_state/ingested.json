@@ -155,6 +155,18 @@
     "sha256": "2b9ef52aa16e2d81ae343b5d48aeb4f22e56ae13dbed7ba35596c523a3789f80",
     "size": 23870
   },
+  "deliverables/video-pipeline/action5pro-auto-edit-to-douyin-2026-10-15.md": {
+    "ingested_at": "2026-10-16 01:02",
+    "note": "notes/tooling/video-pipeline-action5pro-douyin-automation.md",
+    "sha256": "e0b8cce7e66fa84177a4a0f16b946994ca4e65a52f26035ea2607c6fd7496fdf",
+    "size": 13444
+  },
+  "deliverables/video-pipeline/jianying-route-detail-2026-10-15.md": {
+    "ingested_at": "2026-10-16 01:02",
+    "note": "notes/tooling/jianying-draft-automation-route.md",
+    "sha256": "f8747d409b0feadb22ab9adc81c8b645981f4e70546507319cdc574fce3749f3",
+    "size": 12033
+  },
   "dist/AWS与阿里云支持服务文档.zip": {
     "ingested_at": "2026-09-28 07:42",
     "note": "notes/business/cloud-support-docs-corpus.md",

@@ -1002,6 +1002,25 @@
     "summary": "最值得抄的不是某个笔记软件，而是 TIL（Today I Learned）范式——直接把 GitHub 仓库当知识库，因为 GitHub 已免费提供文件系统、M…"
   },
   {
+    "title": "剪映专业版路线细化方案 —— SVIP 加持下的本地闭环自动化",
+    "path": "notes/tooling/jianying-draft-automation-route.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "剪映",
+      "pyJianYingDraft",
+      "SVIP",
+      "视频自动化",
+      "版本锁",
+      "uiautomation",
+      "Python3.11",
+      "徒步Vlog"
+    ],
+    "status": "growing",
+    "updated": "2026-10-16",
+    "summary": "一句话结论：老板持有剪映 SVIP（关键事实：SVIP 才覆盖电脑端，VIP 仅手机/平板 App），据此把原方案里的路线 B（剪映草稿自动化）从\"二期可选\"升…"
+  },
+  {
     "title": "Raven（Windows 原生）安装与卸载记录 · v0.2.3",
     "path": "notes/tooling/raven-install-windows-native.md",
     "area": "tooling",
@@ -1054,6 +1073,25 @@
     "status": "growing",
     "updated": "2026-10-14",
     "summary": "一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra…"
+  },
+  {
+    "title": "大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案",
+    "path": "notes/tooling/video-pipeline-action5pro-douyin-automation.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "视频自动化",
+      "剪辑流水线",
+      "抖音发布",
+      "Action5Pro",
+      "ffmpeg",
+      "PySceneDetect",
+      "edge-tts",
+      "徒步"
+    ],
+    "status": "growing",
+    "updated": "2026-10-16",
+    "summary": "一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能…"
   },
   {
     "title": "Windows 断链快捷方式与「应用栏鬼影」清理指南",
