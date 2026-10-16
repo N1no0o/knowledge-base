@@ -934,6 +934,22 @@
     "summary": "一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi…"
   },
   {
+    "title": "解决方案架构师修炼之道（原书第2版）· 书目卡",
+    "path": "notes/reading/solutions-architects-handbook-2e.md",
+    "area": "reading",
+    "areaLabel": "阅读摘录",
+    "tags": [
+      "reading",
+      "解决方案架构",
+      "架构师",
+      "书目",
+      "华章"
+    ],
+    "status": "seedling",
+    "updated": "2026-10-16",
+    "summary": "一句话结论：Packt《Solutions Architect's Handbook》第 2 版中译（机工社 2025-03，ISBN 978-7-111-76…"
+  },
+  {
     "title": "AWS CLI root 长期登录态保活方案（2026-10-11 实测定案）",
     "path": "notes/tooling/aws-cli-root-session-keepalive.md",
     "area": "tooling",

@@ -23,6 +23,12 @@
     "sha256": "a343d0bd2c799c87975e1f951ce94cbd97c73194fafbe714dac2fb3dbcd0f726",
     "size": 8346
   },
+  "deliverables/books/解决方案架构师修炼之道-原书第2版-书目笔记.md": {
+    "ingested_at": "2026-10-16 09:17",
+    "note": "notes/reading/solutions-architects-handbook-2e.md",
+    "sha256": "0a915888cec08fd6d49d676d0875a13fb5f0e2a7ddd44521f20cab857fc94761",
+    "size": 10659
+  },
   "deliverables/cs2-butterfly-knife-price-trend-2026-10-14.html": {
     "ingested_at": "2026-10-15 01:01",
     "note": "notes/life/cs2-butterfly-knife-price-trend-2026-10-14.md",

@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-10-16 · 共 63 篇
+> 最后更新:2026-10-16 · 共 64 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -67,10 +67,11 @@
 - [大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案](notes/tooling/video-pipeline-action5pro-douyin-automation.md) — 一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能… `growing`
 - [技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）](notes/tooling/skill-env-consistency-audit-20260927.md) — 一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra… `growing`
 
-## 阅读摘录(`reading`) · 2 篇
+## 阅读摘录(`reading`) · 3 篇
 
 - [《高性价比人生指南》· 精华结论（HowToLiveBetter 结构化整理）](notes/reading/howtolivebetter-high-value-life-guide.md) — 一句话结论：一本把人生拆成「成本 — 收益 — 证据等级」的循证决策手册 —— 34 章 654 条按性价比（不花钱 × 不花时间 × 不需毅力 × 收益落在自… `growing`
 - [《高性价比人生指南》交付包索引（合订本 / 精华版 / 速查表 / HTML）](notes/reading/howtolivebetter-kit-index.md) — 一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi… `growing`
+- [解决方案架构师修炼之道（原书第2版）· 书目卡](notes/reading/solutions-architects-handbook-2e.md) — 一句话结论：Packt《Solutions Architect's Handbook》第 2 版中译（机工社 2025-03，ISBN 978-7-111-76… `seedling`
 
 ## 生活与资料(`life`) · 6 篇
 
