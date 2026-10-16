@@ -2,7 +2,7 @@
 title: 《高性价比人生指南》· 精华结论（HowToLiveBetter 结构化整理）
 tags: [阅读摘录, 生活决策, 循证, 健康, 法律风险, 个人理财, 家庭财务, HowToLiveBetter]
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-17
 source: deliverables/howtolivebetter/高性价比人生指南-精华整理版.md（114.9 KB，2026-10-04 08:39）｜原件 D:/AI/my_project/deliverables/howtolivebetter/｜上游 GitHub eternity4719/HowToLiveBetter（Unlicense / CC BY 4.0）
 status: growing
 ---
@@ -112,3 +112,4 @@ status: growing
 
 - [[howtolivebetter-kit-index]] — 本次同一交付包（合订本 / 精华版 / 速查表）的索引与本地原件路径
 - [[sh600519-fundamentals-2026-09-30]] — 同类「只给算法与证据、明确不构成投资建议」的决策类笔记（本书第 5 章口径与之互通）
+- [[solutions-architects-handbook-2e]] — reading 领域另一本书目卡（解决方案架构师修炼之道第 2 版，含章节目录与正版获取渠道）
