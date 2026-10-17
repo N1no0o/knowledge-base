@@ -168,10 +168,16 @@
     "size": 13444
   },
   "deliverables/video-pipeline/jianying-route-detail-2026-10-15.md": {
-    "ingested_at": "2026-10-16 01:02",
+    "ingested_at": "2026-10-18 01:02",
     "note": "notes/tooling/jianying-draft-automation-route.md",
-    "sha256": "f8747d409b0feadb22ab9adc81c8b645981f4e70546507319cdc574fce3749f3",
-    "size": 12033
+    "sha256": "04ab2edb2c0067a25e6a1b6892810f60cab5a060589f3fbab6b893e46085985c",
+    "size": 15206
+  },
+  "deliverables/video-pipeline/jianying-route-v2-latest-version-2026-10-17.md": {
+    "ingested_at": "2026-10-18 01:02",
+    "note": "notes/tooling/jianying-draft-automation-route.md",
+    "sha256": "a0e126f816641691a676c28ac8671c2d11545038cc1aa068bc161af4619a22f4",
+    "size": 9041
   },
   "dist/AWS与阿里云支持服务文档.zip": {
     "ingested_at": "2026-09-28 07:42",

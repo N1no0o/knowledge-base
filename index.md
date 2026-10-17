@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-10-17 · 共 64 篇
+> 最后更新:2026-10-18 · 共 64 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -63,7 +63,7 @@
 - [Raven（Windows 原生）安装与卸载记录 · v0.2.3](notes/tooling/raven-install-windows-native.md) — 一句话结论：Raven v0.2.3 在 Windows 上用 uv tool install 装成功、四个内置插件全部 activated；真正的坑不在 Ra… `growing`
 - [Windows 断链快捷方式与「应用栏鬼影」清理指南](notes/tooling/windows-shortcut-ghost-cleanup.md) — 一句话结论：点图标没反应 / 报"找不到文件"、以及"设置→应用里卸不掉"，根因都不是"隐藏属性"，而是两类残留——快捷方式指着已不存在的路径、卸载器删了文件却… `growing`
 - [dsh 插件体系 · 版本兼容闸门与可安装清单](notes/tooling/dsh-plugin-ecosystem.md) — 一句话结论：桌面版 dsh（0.2.0-rc.2）装插件只能走「设置 → 插件」（Electron 进程级独占 profile，CLI 会被回滚）；插件锚定的是… `growing`
-- [剪映专业版路线细化方案 —— SVIP 加持下的本地闭环自动化](notes/tooling/jianying-draft-automation-route.md) — 一句话结论：老板持有剪映 SVIP（关键事实：SVIP 才覆盖电脑端，VIP 仅手机/平板 App），据此把原方案里的路线 B（剪映草稿自动化）从"二期可选"升… `growing`
+- [剪映路线（当前态 v2）—— 解除版本锁，只剩「导出」这一步必须人工](notes/tooling/jianying-draft-automation-route.md) — 一句话结论：原方案「必须把剪映锁在 6.8」的前提已经不成立——社区自维护分支 aoguai/pyJianYingDraft 已实现高版本草稿可逆读写（READ… `growing`
 - [大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案](notes/tooling/video-pipeline-action5pro-douyin-automation.md) — 一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能… `growing`
 - [技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）](notes/tooling/skill-env-consistency-audit-20260927.md) — 一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra… `growing`
 
