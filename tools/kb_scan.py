@@ -42,11 +42,14 @@ PENDING = os.path.join(STATE_DIR, "pending.json")
 # 源：agent/工作区的产出目录。depth=1 表示只看该目录下一层，不递归。
 # ⚠️ 新增产出区目录时必须在此登记，否则整棵子树不会被扫描
 #    （2026-09-30 教训：deliverables/ 漏登记 ⇒ 18 件交付物长期落在扫描视野外）。
+#    根目录条目是 depth=1（只看一层）⇒ 在子目录里放产出的新项目必须单独登记一条 depth=99
+#    （2026-10-11 quant / 10-12 _aws_cache / 10-14 _rea_audit / 10-29 video-pipeline 均因此补）、
 SOURCE_ROOTS = [
     {"path": "D:/AI/my_project", "depth": 1, "label": "工作区根目录"},
     {"path": "D:/AI/my_project/dist", "depth": 99, "label": "dist 产出区"},
     {"path": "D:/AI/my_project/deliverables", "depth": 99, "label": "deliverables 交付区"},
     {"path": "D:/AI/my_project/quant", "depth": 99, "label": "quant 量化回测产出区"},
+    {"path": "D:/AI/my_project/video-pipeline", "depth": 99, "label": "video-pipeline 视频流水线产出区"},
     {"path": "D:/AI/my_project/_aws_cache", "depth": 1, "label": "_aws_cache 产出区"},
     {"path": "D:/AI/my_project/_rea_audit", "depth": 1, "label": "_rea_audit 技能审计产出区"},
 ]

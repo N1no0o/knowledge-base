@@ -2,8 +2,8 @@
 title: 大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案
 tags: [视频自动化, 剪辑流水线, 抖音发布, Action5Pro, ffmpeg, PySceneDetect, edge-tts, 徒步]
 created: 2026-10-16
-updated: 2026-10-18
-source: D:/AI/my_project/deliverables/video-pipeline/action5pro-auto-edit-to-douyin-2026-10-15.md（13.4 KB，2026-10-15 10:08）
+updated: 2026-10-29
+source: D:/AI/my_project/video-pipeline/README.md（4.1 KB，2026-10-28 20:39，**已实装的当前态**）｜D:/AI/my_project/deliverables/video-pipeline/action5pro-auto-edit-to-douyin-2026-10-15.md（13.4 KB，2026-10-15 10:08 原始方案）
 status: growing
 ---
 
@@ -167,7 +167,41 @@ ffmpeg -i input.mp4 -af "afftdn=nf=-25,highpass=f=80" -c:v copy output.mp4
 
 > 方案到此为止，**尚未执行任何环境变更**。
 
+## 十二、2026-10-28 实装：方案已落地为 `vp` 包（本页此前的「未安装」状态作废）
+
+**结论：✅ ①②③ 三段全部自动化，④ 发布仍需人工点击，与方案预测一致。** 工程在 `D:/AI/my_project/video-pipeline/`，代码是 Python 包 `vp/`，一条命令出两份剪映草稿。
+
+| 模块 | 职责 |
+|---|---|
+| `vp/config.py` | 所有可调参数（阈值、时长、音色、分辨率） |
+| `vp/srt_parse.py` | DJI `.SRT` 解析（GPS / 海拔） |
+| `vp/analyze.py` | 转 480p/10fps 代理 → 场景切分（PySceneDetect）→ 质量筛查 → 打分 |
+| `vp/narrate.py` | 旁白稿 + edge-tts 逐段配音（带缓存） |
+| `vp/build.py` | 时间轴编排 + 剪映草稿生成（横屏正片 + 竖屏精华） |
+| `vp/__main__.py` | 命令行入口 |
+
+```bash
+D:\AI\_tools\video-pipeline\.venv313\Scripts\python.exe -m vp \
+  --inbox "media/inbox/2026-10-28" --name hike_1028 --bgm "media/bgm/chill.mp3"
+```
+
+**九个步骤**：① 转代理（4K 分析提速一个数量级）② 场景切分 ③ 质量筛查（死黑/过曝/糊/静止）④ 打分（清晰度 60% + 曝光 40%，叠加运动强度）⑤ 解析 SRT 算爬升与爬升速率 ⑥ 旁白稿 ⑦ edge-tts 配音 ⑧ 编排 ⑨ 生成草稿。
+
+**「旁白驱动剪辑」的量化口径（这是成片像样的分水岭）**：每段画面时长 = 该句旁白时长 + 留白，留白按覆盖率 **62%** 反推、**上限 2.5 s**；单段画面钳在 **2.5–8 s**；素材不够时循环复用兜底；字幕与旁白同长。
+
+| 调参项（`vp/config.py`） | 默认 | 作用 |
+|---|---|---|
+| `NARRATION_COVERAGE` | 0.62 | 旁白占比；调大更紧、调小更缓 |
+| `MIN_CLIP_SEC` / `MAX_CLIP_SEC` | 2.5 / 8.0 | 单段画面时长区间 |
+| `EXPOSE_DARK` / `EXPOSE_BRIGHT` | 18 / 238 | 死黑 / 过曝阈值 |
+| `BLUR_LAPLACIAN` | 45 | 清晰度下限（雨雾天可调低） |
+| `SHORTS_SEC` | 60 | 竖屏精华目标时长 |
+| `VOICE` | 云健 | edge-tts 音色 |
+
+**首跑结果**：3 条原始素材 → 9 段全过筛查，累计爬升 705 m / 最高海拔 1205 m，旁白 44.69 s，产出 `hike_1028_landscape` + `hike_1028_shorts` 两份草稿（剪映 11.6 打开正常）。
+⇒ 本页 §七「本机环境现状（2026-10-15）」的「ffmpeg 未安装 / 剪映待安装」**已全部作废**；剪映侧的版本与踩坑以 [[jianying-draft-automation-route]] §十一 为准。
+
 ## 相关
 
-- [[jianying-draft-automation-route]] — 路线 B（剪映草稿自动化）细化方案，**版本/依赖/路径硬约束以此篇为准**
+- [[jianying-draft-automation-route]] — 路线 B（剪映草稿自动化）当前态，**版本/依赖/路径硬约束 + 10-28 实装踩坑以此篇为准**
 - [[hiking-china-50-routes-gpx-pack]] — 徒步路线素材与 GPX 轨迹包（同一内容线的素材侧）

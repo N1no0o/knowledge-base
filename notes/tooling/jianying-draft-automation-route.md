@@ -2,8 +2,8 @@
 title: 剪映路线（当前态 v2）—— 解除版本锁，只剩「导出」这一步必须人工
 tags: [剪映, pyJianYingDraft, aoguai分支, SVIP, 视频自动化, 人工导出, uiautomation, Python3.11, 徒步Vlog]
 created: 2026-10-16
-updated: 2026-10-18
-source: D:/AI/my_project/deliverables/video-pipeline/jianying-route-v2-latest-version-2026-10-17.md（9.0 KB，2026-10-17 23:39，**当前有效版本**）｜D:/AI/my_project/deliverables/video-pipeline/jianying-route-detail-2026-10-15.md（15.2 KB，2026-10-15 首版，2026-10-17 23:39 增补 §10 安装实测+叫停记录；其 §3.1「锁 6.8」已被 v2 取代）｜上游总方案见 [[video-pipeline-action5pro-douyin-automation]]
+updated: 2026-10-29
+source: D:/AI/my_project/video-pipeline/README.md（4.1 KB，2026-10-28 20:39，**实装后的当前态**）｜D:/AI/my_project/deliverables/video-pipeline/jianying-route-v2-latest-version-2026-10-17.md（9.0 KB，2026-10-17 23:39）｜D:/AI/my_project/deliverables/video-pipeline/jianying-route-detail-2026-10-15.md（15.2 KB，2026-10-15 首版；其 §3.1「锁 6.8」已被 v2 取代）｜上游总方案见 [[video-pipeline-action5pro-douyin-automation]]
 status: growing
 ---
 
@@ -82,6 +82,7 @@ v1 的核心约束是「锁 6.8」，理由是原版 `pyJianYingDraft` 读不了
 ## 五、v1 仍然有效的约束（别一起丢掉）
 
 1. **Python 必须 3.11**：`pyJianYingDraft` 的导出依赖 `uiautomation`，在 **3.13 下有依赖问题**，官方推荐 3.8/3.10/**3.11**；本机 managed 3.13.12 与系统 3.12.10 都不在列表 ⇒ 用便携版到 `D:\AI\_tools\python311\`，venv 在 `D:\AI\_tools\video-pipeline\.venv311\`。
+   **（2026-10-28 实测放宽）**：只要**不启用自动导出**，3.13 完全可用（已在 `.venv313` 跑通，见 §十一）。判据是「用不用 `uiautomation`」，不是 Python 版本本身。
 2. **素材必须 D 盘、路径不含中文**：剪映导入是**引用原路径、不复制**；`pyJianYingDraft` 对中文路径有已知兼容问题 ⇒ 素材 `D:\AI\my_project\media\inbox\<YYYY-MM-DD>\`，目录/文件名/草稿名/输出路径一律英文数字。素材移动或换机 ⇒ 草稿引用失效，**成片没出来先查这个**。
 3. **SVIP 覆盖电脑端**（VIP 仅手机/平板）⇒ 路线 B 的前提成立。
 4. **「导出死循环」风险仍在**：草稿引用会员专属素材（曲库音乐/付费字体/蓝钻特效）而客户端未登录、会员过期或登录态失效时，导出会卡在**无提示的等待循环**（脚本看着在跑、永不结束）。三条防护：保持登录 / 会员有效期覆盖整个周期 / **脚本层导出超时熔断**（超过 N 分钟无进展就 kill 并报警）——第三条是纯工程兜底，无论会员状态都该加。
@@ -151,6 +152,25 @@ README 只把加密 codec 的验证范围写在 10.3~10.6.5，10.8 是「功能�
 2. 是否重启安装：剪映最新版（GUI 装，可自选 D 盘）+ Python 3.11 便携版 + ffmpeg —— 10-17 23:2x 刚清理过一轮，重启前确认
 3. 画幅：Action 5 Pro 直出 16:9 横屏，抖音竖屏推荐度更高 —— 要不要用同批素材自动切一条 60 秒竖屏精华（脚本可做，二期）？
 4. 旁白先用 edge-tts（快）还是直接上音色克隆（像本人）？
+
+## 十一、2026-10-28 实装落地：`vp` 包首次真出片（P0 已通过）
+
+**结论：草稿生成链路在真机上跑通了** —— `video-pipeline` 的 `vp` 包一条命令产出 `hike_1028_landscape` 与 `hike_1028_shorts` 两份草稿，**剪映 11.6.0.14552 打开正常**。人工只剩「插卡 → 点导出 → 点发布」三步。
+
+| 首跑实测（`media/out/hike_1028_report.json`） | 值 |
+|---|---|
+| 素材 | DJI Action 5 Pro 3 条（同名 `.SRT` 可解析 GPS/海拔） |
+| 切分 / 通过筛查 | 9 段 / 9 段 |
+| 累计爬升 · 最高海拔 | 705 m · 1205 m |
+| 旁白总时长 / 可用素材 | 44.69 s / 90 s（成片 ≈1.5 分钟） |
+
+**新增三条工程坑（改草稿生成代码前必看）**
+
+1. **转场必须在片段入轨之前挂** —— 库是在 `add_segment` 时把转场登记进 `materials` 的；先入轨再调 `add_transition` **不报错，但静默丢失**（成片无转场、日志干净，最难查的一类）。
+2. **素材时长要用实际值钳制** —— 旁白音频实测 4.368 s，按 4.37 s 传进去直接抛 `ValueError: 超出素材时长`；**毫秒级误差就够触发**，不能用四舍五入后的值。
+3. **PyPI 原版 `pyJianYingDraft 0.3.1` 没有云端曲库 / 花字 / 气泡** —— 那是社区 fork 的能力。走原版时 **BGM 只能给本地文件**，§四 能力矩阵（按 fork 写）里「云端曲库」这一项**不成立**；要曲库就得换 fork。
+
+**其余确认项**：草稿目录固定 `%LOCALAPPDATA%\JianyingPro\User Data\Projects\com.lveditor.draft`（C 盘）；剪映 7+ 隐藏导出控件这条硬边界在 **11.6 上继续成立** ⇒ 自动导出确实只能人工。
 
 ## 相关
 
