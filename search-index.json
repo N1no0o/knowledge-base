@@ -845,6 +845,23 @@
     "summary": "本页为公开行情整理，不构成投资建议；饰品价格受 Valve 政策变动影响极大，可能单日剧烈波动。"
   },
   {
+    "title": "从化桂峰山 11-01 成片：28 段分镜与发布文案（含「无柿子镜头」交付口径）",
+    "path": "notes/life/guifengshan-hike-1101-video-copy.md",
+    "area": "life",
+    "areaLabel": "生活与资料",
+    "tags": [
+      "徒步",
+      "视频文案",
+      "分镜",
+      "从化桂峰山",
+      "抖音",
+      "video-pipeline"
+    ],
+    "status": "seedling",
+    "updated": "2026-11-05",
+    "summary": "一句话结论：11-01 桂峰山素材已切出 28 段可用分镜、文案已定稿，但整批原片里没有任何柿子镜头——标题主打「爬完下山吃柿子」写的是行程事实（老板口述）而非…"
+  },
+  {
     "title": "《徒步中国》50 条路线 · 公开轨迹包（结论篇）",
     "path": "notes/life/hiking-china-50-routes-gpx-pack.md",
     "area": "life",
@@ -1104,10 +1121,11 @@
       "ffmpeg",
       "PySceneDetect",
       "edge-tts",
-      "徒步"
+      "徒步",
+      "GPX"
     ],
     "status": "growing",
-    "updated": "2026-10-29",
+    "updated": "2026-11-05",
     "summary": "一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能…"
   },
   {

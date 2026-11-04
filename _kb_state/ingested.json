@@ -562,5 +562,17 @@
     "note": "notes/life/ashare-quant-backtest-kit-index.md",
     "sha256": "7fc4e8d7151041996d6509d9ffbaa0bb7c78b059b004f3401743cf60350b030b",
     "size": 112748
+  },
+  "video-pipeline/media/cache/storyboard.md": {
+    "ingested_at": "2026-11-05 01:01",
+    "note": "notes/life/guifengshan-hike-1101-video-copy.md",
+    "sha256": "b3e922e421fc12747d56989f97578819d3be9532b934794bc8daceb7f254ddc0",
+    "size": 3212
+  },
+  "video-pipeline/media/out/hike_1101_copy.md": {
+    "ingested_at": "2026-11-05 01:01",
+    "note": "notes/life/guifengshan-hike-1101-video-copy.md",
+    "sha256": "82120269ee80622d2ae7d007b2aa03b00d0fee28f1636307c7cf75c68f43fc06",
+    "size": 1986
   }
 }

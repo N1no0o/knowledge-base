@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-11-04 · 共 64 篇
+> 最后更新:2026-11-05 · 共 65 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -73,13 +73,14 @@
 - [《高性价比人生指南》交付包索引（合订本 / 精华版 / 速查表 / HTML）](notes/reading/howtolivebetter-kit-index.md) — 一句话结论：这是一套从开源书 eternity4719/HowToLiveBetter 结构化整理出来的「三件套 + 网页版」，共 4 个文件约 2.52 Mi… `growing`
 - [解决方案架构师修炼之道（原书第2版）· 书目卡](notes/reading/solutions-architects-handbook-2e.md) — 一句话结论：Packt《Solutions Architect's Handbook》第 2 版中译（机工社 2025-03，ISBN 978-7-111-76… `seedling`
 
-## 生活与资料(`life`) · 6 篇
+## 生活与资料(`life`) · 7 篇
 
 - [A 股日频多因子回测 · 实测结论（亏损主因是换手成本，不是因子无效）](notes/life/ashare-quant-backtest-findings.md) — 一句话结论：这套纯量价多因子在 12 只蓝筹上没有预测力（ICIR 仅 0.036，远低于 0.3 可用阈值）——但真正的杀手不是因子弱，而是换手成本：同样因子… `growing`
 - [A 股量化回测框架 · 交付包与产物索引](notes/life/ashare-quant-backtest-kit-index.md) — 一句话结论：这是一套约 700 行、不依赖重量级框架的 A 股日频多因子回测系统（4 个源码模块 + 自检探针 + 4 张图 + HTML 报告）；结论见 as… `growing`
 - [CS2 蝴蝶刀价格走势（2026-10-14）：7 月起持续回落，近 7 天全线下跌](notes/life/cs2-butterfly-knife-price-trend-2026-10-14.md) — 本页为公开行情整理，不构成投资建议；饰品价格受 Valve 政策变动影响极大，可能单日剧烈波动。 `growing`
 - [《徒步中国》50 条路线 · 公开轨迹包（结论篇）](notes/life/hiking-china-50-routes-gpx-pack.md) — 一句话结论：拿一本徒步书（《徒步中国》西苑出版社 2026-01，ISBN 9787515110578）的 50 条公开路线名，去匹配公开开源轨迹，最终 20 … `growing`
 - [《徒步中国》50 条路线轨迹包 · 交付包与产物索引](notes/life/hiking-china-50-routes-kit-index.md) — 一句话结论：这是一个「路线索引页 + 轨迹文件 + 打包 zip」三件式交付包（合计约 7.7 MB，zip 1.0 MB / 52 条目）；结论见 hikin… `growing`
+- [从化桂峰山 11-01 成片：28 段分镜与发布文案（含「无柿子镜头」交付口径）](notes/life/guifengshan-hike-1101-video-copy.md) — 一句话结论：11-01 桂峰山素材已切出 28 段可用分镜、文案已定稿，但整批原片里没有任何柿子镜头——标题主打「爬完下山吃柿子」写的是行程事实（老板口述）而非… `seedling`
 - [贵州茅台 600519 · 基本面与估值单维度分析（2026-09-30）](notes/life/sh600519-fundamentals-2026-09-30.md) — 一句话结论：质地优质 · 估值低估 —— 属"高质量、低增长型的类债券资产"，但低估是对成长性转负的合理定价，修复需基本面企稳确认；成长性是唯一显著短板（五维评… `seedling`
 
 > 空领域(待填充):`ai`
