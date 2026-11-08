@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-11-08 · 共 66 篇
+> 最后更新:2026-11-08 · 共 67 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -67,8 +67,9 @@
 - [大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案](notes/tooling/video-pipeline-action5pro-douyin-automation.md) — 一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能… `growing`
 - [技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）](notes/tooling/skill-env-consistency-audit-20260927.md) — 一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra… `growing`
 
-## 视频创作方法(`video`) · 1 篇
+## 视频创作方法(`video`) · 2 篇
 
+- [案例拆解 · 58 秒"一个人上山"竖屏徒步 vlog（纯字幕驱动 / 2 秒切点）](notes/video/case-solo-hike-vlog-58s.md) — 一句话结论：这条片子把「钩子」从地理换成了情绪（6:00 天天失眠 → 与其内耗不如出发），用 27 个镜头 / 平均 2.1 秒的碎切维持信息密度，全程零口播… `growing`
 - [短视频爆款套路 · 徒步户外类（选题/结构/节奏/声音/标题）](notes/video/short-video-viral-patterns.md) — 一句话结论：决定播放量的不是画质而是「选题有没有冲突」——流量只认三类选题（冲突 / 反差 / 实用价值），"我的一天"式流水记录在拆解口径里是最弱一类；技术上… `growing`
 
 ## 阅读摘录(`reading`) · 3 篇
