@@ -45,6 +45,7 @@ AREAS = {
     "business": "业务与立项",
     "infra": "基础设施与网络",
     "tooling": "工具链与自动化",
+    "video": "视频创作方法",
     "reading": "阅读摘录",
     "life": "生活与资料",
 }

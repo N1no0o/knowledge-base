@@ -303,6 +303,7 @@ A/B 试听样本：`media/out/audio_ab/01-旧-原声满音量.mp3`、`02-新-降
 
 ## 相关
 
+- [[short-video-viral-patterns]] — **为什么这么剪**：爆款套路（选题三类 / 五段叙事弧 / 变速档位 / 标题公式）与自家基线诊断；技能 `hike-video-edit` 开工前必读此页
 - [[jianying-draft-automation-route]] — 路线 B（剪映草稿自动化）当前态，**版本/依赖/路径硬约束 + 10-28 实装踩坑以此篇为准**
 - [[guifengshan-hike-1101-video-copy]] — 用本流水线产出的 11-01 桂峰山成片：28 段分镜数据 + 发布文案（含「无柿子镜头」交付口径）
 - [[hiking-china-50-routes-gpx-pack]] — 徒步路线素材与 GPX 轨迹包（同一内容线的素材侧）

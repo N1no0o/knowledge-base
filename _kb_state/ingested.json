@@ -167,6 +167,12 @@
     "sha256": "e0b8cce7e66fa84177a4a0f16b946994ca4e65a52f26035ea2607c6fd7496fdf",
     "size": 13444
   },
+  "deliverables/video-pipeline/hiking-video-hit-patterns-2026-11-08.md": {
+    "ingested_at": "2026-11-08 18:14",
+    "note": "notes/video/short-video-viral-patterns.md",
+    "sha256": "3d7fbff986fb736697e3cbc9b7af504211cbc9e5708d9ee47f25fbad44f0369d",
+    "size": 8281
+  },
   "deliverables/video-pipeline/jianying-route-detail-2026-10-15.md": {
     "ingested_at": "2026-10-18 01:02",
     "note": "notes/tooling/jianying-draft-automation-route.md",
