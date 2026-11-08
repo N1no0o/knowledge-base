@@ -2,7 +2,7 @@
 title: 大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案
 tags: [视频自动化, 剪辑流水线, 抖音发布, Action5Pro, ffmpeg, 音频后期, PySceneDetect, edge-tts, 徒步, GPX]
 created: 2026-10-16
-updated: 2026-11-08
+updated: 2026-11-09
 source: D:/AI/my_project/video-pipeline/README.md（17.2 KB，2026-11-08 18:41，**已实装的当前态**，含 11-08 新增镜头节奏章节）｜D:/AI/my_project/deliverables/video-pipeline/action5pro-auto-edit-to-douyin-2026-10-15.md（13.4 KB，2026-10-15 10:08 原始方案）
 status: growing
 ---
@@ -358,8 +358,57 @@ A/B 试听样本：`media/out/audio_ab/01-旧-原声满音量.mp3`、`02-新-降
   跑分析时会打印 `停留型素材 N 段 / Xs 被判静止已剔除（最好一段 score … @ HH:MM）`，供临场判断。
 - **字幕驱动模式不做**（老板 11-08 明确：暂不需要）。
 
+## 十六、2026-11-08 迭代：双引擎（达芬奇渲母版 + 剪映出可改草稿）
+
+老板明确要求「达芬奇要用起来、剪映也要同步用、素材先按知识库分析再动手」。
+本节是这条线当前态，与十四/十五节不冲突（音频后期仍走 `vp/audio.py` 与 ffmpeg）。
+
+### 16.1 分工：为什么必须两个引擎
+
+| 需求 | 剪映 | 达芬奇 |
+|---|---|---|
+| 整段设倍率 | 有（`VideoSegment.speed`） | 有（`SetSpeed`） |
+| 28 镜各不同倍率 **且输出帧数精确等于计划** | 做不到 | 能做到（截源 + 变速两步合一） |
+| 字幕样式 / BGM / 模板随时改 | 强 | 弱 |
+| 自动出成品 mp4 | 导出控件被藏，必须人点 | 脚本可排队渲 |
+
+⇒ **达芬奇出画面母版 → ffmpeg 调色烧字幕混音出成品**；**剪映吃同一份 plan 出可改草稿**。
+
+### 16.2 单一真源 `hitplan_fixed.json`
+
+`hitplan.json` 每镜带 `src/src_start/out_frames/speed/text`。喂给两个引擎前必须先归一化
+（`vp.plan_draft --fix-plan`）：把 `src_start` 钳进素材真实时长、倍率重算成
+`源微秒/输出微秒`。代理片 `.LRF` 与原片时长差几十毫秒，不归一化会出现
+「达芬奇渲得下、剪映报越界」。实测 28 镜里有 2 镜需要前移 79–87 ms。
+
+### 16.3 新增模块
+
+| 模块 | 作用 | 实测 |
+|---|---|---|
+| `vp/preaudit.py` | 开工前全量素材分析：逐条时长/清晰度/曝光/天空/植被/运动 + 钩子候选 + 人眼待确认清单 | 29 条 / 204 分钟 / 170.9 GB → **1 分 55 秒** |
+| `vp/plan_draft.py` | plan → 剪映草稿（逐段 `speed` + 字幕 + 2 条整轨音频），并输出归一化 plan | 28 段 / 164.93 s / 明文 JSON / 缺失素材 0 |
+| `_p2_build.py`（改） | 母版由「时长与 plan 匹配」自动挑，差 >1 s 直接拒绝出片 | 拦住过 196 s 母版配 165 s plan 的整片错位 |
+
+### 16.4 新踩的四个坑
+
+1. **母版不能硬编码**：旧代码写死 196 s 母版，配 165 s 计划 → 前 165 s 全是错画面**且不报错**。
+2. **剪映时间轴必须整数微秒推进**：库同时给 `source_timerange` + `speed` 时会重算目标时长，
+   浮点秒累加差 1 µs 就 `SegmentOverlap`（实测崩在第 3 镜 16.6833 s）。
+3. **绝对阈值判不出画面类型**：写死「天空 ≥0.25 算开阔」，在阴天 + 秋末素材上（实测最高 0.22）
+   27/29 条被判"其他"。⇒ 阈值取本批 p80，报表里注明相对口径。
+4. **批量删抽帧缓存会被沙箱守卫掐**：清 800 张 → `EXIT=1`，只吐
+   `SAFE_DELETE_BULK_CONFIRM_REQUIRED`（50 文件/轮）。⇒ 文件名带 run id，不删旧帧。
+
+### 16.5 边界
+
+- 达芬奇侧必须**人点一次脚本菜单**（`工作区 → 脚本 → Utility → _hit_build`），Resolve 不支持外部唤起。
+- 剪映导出同样必须人点。
+- 母版是中间件（1080p60 / 245 Mbps / ≈6 GB），不是成品。
+
 ## 相关
 
+- [[davinci-resolve-free-edition-automation]] — 达芬奇引擎的能力底账：免费版外部脚本封死但内部脚本可渲、`endFrame` 排他、码率不可控（6 GB/245 Mbps）、调色改 ffmpeg（16.5 节「母版不是成品」的原因在此）
+- [[vp-preaudit-material-inventory]] — 本节 `vp/preaudit.py` 的口径与两次实跑数据（hike_1101 / smoke1028）
 - [[short-video-viral-patterns]] — **为什么这么剪**：爆款套路（选题三类 / 五段叙事弧 / 变速档位 / 标题公式）与自家基线诊断；技能 `hike-video-edit` 开工前必读此页
 - [[jianying-draft-automation-route]] — 路线 B（剪映草稿自动化）当前态，**版本/依赖/路径硬约束 + 10-28 实装踩坑以此篇为准**
 - [[guifengshan-hike-1101-video-copy]] — 用本流水线产出的 11-01 桂峰山成片：28 段分镜数据 + 发布文案（含「无柿子镜头」交付口径）

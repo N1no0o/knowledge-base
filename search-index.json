@@ -985,6 +985,24 @@
     "summary": "一句话结论：aws login 拿到的 root 登录态不需要任何\"保活进程\"——它的 accessToken 15 分钟过期是 STS 设计，CLI 会用长效…"
   },
   {
+    "title": "达芬奇 Resolve 免费版 · 脚本自动化能力边界（P0/P1/P2 实测）",
+    "path": "notes/tooling/davinci-resolve-free-edition-automation.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "达芬奇",
+      "DaVinci Resolve",
+      "视频自动化",
+      "渲染队列",
+      "ffmpeg",
+      "调色",
+      "码率控制"
+    ],
+    "status": "growing",
+    "updated": "2026-11-09",
+    "summary": "一句话结论：达芬奇免费版的外部脚本接口（scriptapp）封死，但「工作区 → 脚本」内部脚本可用，能全自动渲染出片；代价是码率不可控、调色 API 不可用，…"
+  },
+  {
     "title": "DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2",
     "path": "notes/tooling/deepseek-harness-desktop-install.md",
     "area": "tooling",
@@ -1126,8 +1144,26 @@
       "GPX"
     ],
     "status": "growing",
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "summary": "一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能…"
+  },
+  {
+    "title": "开工前素材盘点（preaudit）· 口径与两次实跑数据",
+    "path": "notes/tooling/vp-preaudit-material-inventory.md",
+    "area": "tooling",
+    "areaLabel": "工具链与自动化",
+    "tags": [
+      "视频自动化",
+      "素材盘点",
+      "抽帧",
+      "徒步",
+      "达芬奇",
+      "剪映",
+      "vp"
+    ],
+    "status": "growing",
+    "updated": "2026-11-09",
+    "summary": "一句话结论：vp/preaudit.py 能在约 2 分钟内把一批原片压成「可测事实表 + 人眼待确认清单」，但统计量只能决定\"能不能剪\"，决定不了\"凭什么好看…"
   },
   {
     "title": "Windows 断链快捷方式与「应用栏鬼影」清理指南",

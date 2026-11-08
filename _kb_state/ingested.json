@@ -185,6 +185,12 @@
     "sha256": "a0e126f816641691a676c28ac8671c2d11545038cc1aa068bc161af4619a22f4",
     "size": 9041
   },
+  "deliverables/video-pipeline/resolve-capability-analysis-2026-11-08.md": {
+    "ingested_at": "2026-11-09 01:01",
+    "note": "notes/tooling/davinci-resolve-free-edition-automation.md",
+    "sha256": "7beb656b1b25b37e821bd379db5267f8c5858c5a15ed50140de97834a4accfe4",
+    "size": 13288
+  },
   "dist/AWS与阿里云支持服务文档.zip": {
     "ingested_at": "2026-09-28 07:42",
     "note": "notes/business/cloud-support-docs-corpus.md",
@@ -580,5 +586,17 @@
     "note": "notes/life/guifengshan-hike-1101-video-copy.md",
     "sha256": "82120269ee80622d2ae7d007b2aa03b00d0fee28f1636307c7cf75c68f43fc06",
     "size": 1986
+  },
+  "video-pipeline/media/out/hike_1101_preaudit.md": {
+    "ingested_at": "2026-11-09 01:01",
+    "note": "notes/tooling/vp-preaudit-material-inventory.md",
+    "sha256": "6b71c6f68e93b1151a8ebb194684f4a43c67b747ffabfe37347a275a540f5ae4",
+    "size": 6570
+  },
+  "video-pipeline/media/out/smoke1028_preaudit.md": {
+    "ingested_at": "2026-11-09 01:01",
+    "note": "notes/tooling/vp-preaudit-material-inventory.md",
+    "sha256": "4db24758de9a884df228d96607ea4d8a7f7f6e447b5b63240692f9ca4a7a7a45",
+    "size": 2952
   }
 }

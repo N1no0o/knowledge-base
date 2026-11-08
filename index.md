@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-11-08 · 共 67 篇
+> 最后更新:2026-11-09 · 共 69 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -54,7 +54,7 @@
 
 - [代理节点轮换技能（proxy-node-rotation）打包索引](notes/infra/proxy-node-rotation-bundle.md) — 一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例… `growing`
 
-## 工具链与自动化(`tooling`) · 10 篇
+## 工具链与自动化(`tooling`) · 12 篇
 
 - [AWS CLI root 长期登录态保活方案（2026-10-11 实测定案）](notes/tooling/aws-cli-root-session-keepalive.md) — 一句话结论：aws login 拿到的 root 登录态不需要任何"保活进程"——它的 accessToken 15 分钟过期是 STS 设计，CLI 会用长效… `growing`
 - [DeepSeek Harness Desktop 安装记录 · v0.1.7-rc.2](notes/tooling/deepseek-harness-desktop-install.md) — 一句话结论：装成功了，但整个过程最值得记住的不是产品本身，而是那个反直觉的坑 —— 在 Git Bash 里给 NSIS 安装器传 /D= 会被 MSYS 篡改… `growing`
@@ -65,7 +65,9 @@
 - [dsh 插件体系 · 版本兼容闸门与可安装清单](notes/tooling/dsh-plugin-ecosystem.md) — 一句话结论：桌面版 dsh（0.2.0-rc.2）装插件只能走「设置 → 插件」（Electron 进程级独占 profile，CLI 会被回滚）；插件锚定的是… `growing`
 - [剪映路线（当前态 v2）—— 解除版本锁，只剩「导出」这一步必须人工](notes/tooling/jianying-draft-automation-route.md) — 一句话结论：原方案「必须把剪映锁在 6.8」的前提已经不成立——社区自维护分支 aoguai/pyJianYingDraft 已实现高版本草稿可逆读写（READ… `growing`
 - [大疆 Osmo Action 5 Pro 徒步素材 · 自动化剪辑与发布方案](notes/tooling/video-pipeline-action5pro-douyin-automation.md) — 一句话结论：整条链路拆四段，① 素材导入 / ② 自动粗剪 / ③ 配乐旁白前三段可全自动无人值守；第四段「发布抖音」对个人号做不到全自动——抖音官方视频发布能… `growing`
+- [开工前素材盘点（preaudit）· 口径与两次实跑数据](notes/tooling/vp-preaudit-material-inventory.md) — 一句话结论：vp/preaudit.py 能在约 2 分钟内把一批原片压成「可测事实表 + 人眼待确认清单」，但统计量只能决定"能不能剪"，决定不了"凭什么好看… `growing`
 - [技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）](notes/tooling/skill-env-consistency-audit-20260927.md) — 一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra… `growing`
+- [达芬奇 Resolve 免费版 · 脚本自动化能力边界（P0/P1/P2 实测）](notes/tooling/davinci-resolve-free-edition-automation.md) — 一句话结论：达芬奇免费版的外部脚本接口（scriptapp）封死，但「工作区 → 脚本」内部脚本可用，能全自动渲染出片；代价是码率不可控、调色 API 不可用，… `growing`
 
 ## 视频创作方法(`video`) · 2 篇
 
