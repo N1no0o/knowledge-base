@@ -576,10 +576,10 @@
     "size": 112748
   },
   "video-pipeline/media/cache/storyboard.md": {
-    "ingested_at": "2026-11-05 01:01",
-    "note": "notes/life/guifengshan-hike-1101-video-copy.md",
-    "sha256": "b3e922e421fc12747d56989f97578819d3be9532b934794bc8daceb7f254ddc0",
-    "size": 3212
+    "ingested_at": "2026-11-16 01:01",
+    "note": "notes/life/paiyashan-hike-1115-video-copy.md",
+    "sha256": "4b1bb174002b8bbade5f412ad100d4cd76a941ff3665d3d0b61e09548fb4b801",
+    "size": 2946
   },
   "video-pipeline/media/out/hike_1101_copy.md": {
     "ingested_at": "2026-11-05 01:01",
@@ -592,6 +592,18 @@
     "note": "notes/tooling/vp-preaudit-material-inventory.md",
     "sha256": "6b71c6f68e93b1151a8ebb194684f4a43c67b747ffabfe37347a275a540f5ae4",
     "size": 6570
+  },
+  "video-pipeline/media/out/hike_1115_copy.md": {
+    "ingested_at": "2026-11-16 01:01",
+    "note": "notes/life/paiyashan-hike-1115-video-copy.md",
+    "sha256": "c4d3fe08d4395cdd9039fed3db20e450189f4daef9985c6f475a08b770fff7b2",
+    "size": 2602
+  },
+  "video-pipeline/media/out/hike_1115_preaudit.md": {
+    "ingested_at": "2026-11-16 01:01",
+    "note": "notes/tooling/vp-preaudit-material-inventory.md",
+    "sha256": "05ad6fbf6767f7b4dbe36996abe9dcd077f7582416d60855847e763294de26b2",
+    "size": 6091
   },
   "video-pipeline/media/out/smoke1028_preaudit.md": {
     "ingested_at": "2026-11-09 01:01",
