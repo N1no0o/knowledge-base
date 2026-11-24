@@ -793,6 +793,26 @@
     "summary": "一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例…"
   },
   {
+    "title": "意外重启定案：NVIDIA 621.24 驱动 TDR 恢复失败（BugCheck 0x116）现场诊断法",
+    "path": "notes/infra/windows-tdr-bugcheck-0x116-20261124.md",
+    "area": "infra",
+    "areaLabel": "基础设施与网络",
+    "tags": [
+      "Windows",
+      "崩溃诊断",
+      "BugCheck",
+      "0x116",
+      "TDR",
+      "显卡驱动",
+      "WER",
+      "RTX5070Ti",
+      "排障"
+    ],
+    "status": "growing",
+    "updated": "2026-11-25",
+    "summary": "一句话结论：无蓝屏界面的\"自动重启\"不是电源故障、也不是 Windows Update，本次直接原因是显卡驱动 TDR 恢复失败触发内核 BugCheck 0x…"
+  },
+  {
     "title": "A 股日频多因子回测 · 实测结论（亏损主因是换手成本，不是因子无效）",
     "path": "notes/life/ashare-quant-backtest-findings.md",
     "area": "life",
@@ -1382,6 +1402,26 @@
     "summary": "一句话结论：这条 226 秒的访谈型片子用 93 个镜头（平均 2.43 s/刀）证明——口播/访谈型内容的节奏不靠 BGM 卡点，靠「剪气口」：33% 的切点…"
   },
   {
+    "title": "案例拆解 · 《奔跑吧大叔》新疆旅行记录（12 集 × 5–6 分钟 / 单集 8 小时素材 / 四级压缩）",
+    "path": "notes/video/case-paodabashu-xinjiang-6min-20261124.md",
+    "area": "video",
+    "areaLabel": "视频创作方法",
+    "tags": [
+      "案例拆解",
+      "旅行记录",
+      "自驾",
+      "压缩比",
+      "分级压缩",
+      "结构",
+      "钩子窗口",
+      "工时",
+      "过渡镜"
+    ],
+    "status": "growing",
+    "updated": "2026-11-24",
+    "summary": "一句话结论：这是一条「成片被平台锁死、素材按天累积」的样本——单集 8 小时素材压成 5–6 分钟，压缩比 67–96:1，和 11-12 那条徒步集锦的 86…"
+  },
+  {
     "title": "案例拆解 · Tyler Fox《The Pacific Crest Trail in Three Minutes》（142 天 / 每天 1 秒 / 3 分钟）",
     "path": "notes/video/case-pct-onesec-3min-20261123.md",
     "area": "video",
@@ -1533,7 +1573,7 @@
       "抖音"
     ],
     "status": "growing",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "summary": "一句话结论：决定播放量的不是画质而是「选题有没有冲突」——流量只认三类选题（冲突 / 反差 / 实用价值），\"我的一天\"式流水记录在拆解口径里是最弱一类；技术上…"
   }
 ]

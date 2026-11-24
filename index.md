@@ -1,7 +1,7 @@
 # 索引
 
 > 本文件由 `tools/build_index.py` 自动生成，**请勿手改**。
-> 最后更新:2026-11-24 · 共 85 篇
+> 最后更新:2026-11-25 · 共 87 篇
 
 ## 业务与立项(`business`) · 44 篇
 
@@ -50,9 +50,10 @@
 - [昇腾950立项 · 官方语料索引](notes/business/昇腾950立项-官方语料索引.md) — 已归档位置：D:/AI/my_project/cloud-support-docs/huawei/ `growing`
 - [竞品语料库 cloud-support-docs（打包快照索引）](notes/business/cloud-support-docs-corpus.md) — 一句话结论：cloud-support-docs/ 是立项竞品分析的一手语料库（AWS + 阿里云官方文档与产品页的全量抓取），因体量大而明确排除在知识库 Gi… `growing`
 
-## 基础设施与网络(`infra`) · 1 篇
+## 基础设施与网络(`infra`) · 2 篇
 
 - [代理节点轮换技能（proxy-node-rotation）打包索引](notes/infra/proxy-node-rotation-bundle.md) — 一句话结论：这是一份可复用的 WorkBuddy 技能包——把「阿里云 ECS 上 v2rayN/xray 节点轮换」的整套流程（SKILL.md + 配置样例… `growing`
+- [意外重启定案：NVIDIA 621.24 驱动 TDR 恢复失败（BugCheck 0x116）现场诊断法](notes/infra/windows-tdr-bugcheck-0x116-20261124.md) — 一句话结论：无蓝屏界面的"自动重启"不是电源故障、也不是 Windows Update，本次直接原因是显卡驱动 TDR 恢复失败触发内核 BugCheck 0x… `growing`
 
 ## 工具链与自动化(`tooling`) · 12 篇
 
@@ -69,7 +70,7 @@
 - [技能一致性体检 · 把技能里的「实测」断言逐条真跑（2026-09-27）](notes/tooling/skill-env-consistency-audit-20260927.md) — 一句话结论：体检方法是「把 SKILL.md 里每一条『实测』断言拆出来、逐条对本机真跑一次」；结果是自建的 multi-agent-cli-orchestra… `growing`
 - [达芬奇 Resolve 免费版 · 脚本自动化能力边界（P0/P1/P2 实测）](notes/tooling/davinci-resolve-free-edition-automation.md) — 一句话结论：达芬奇免费版的外部脚本接口（scriptapp）封死，但「工作区 → 脚本」内部脚本可用，能全自动渲染出片；代价是码率不可控、调色 API 不可用，… `growing`
 
-## 视频创作方法(`video`) · 17 篇
+## 视频创作方法(`video`) · 18 篇
 
 - [案例拆解 · 10 分钟 Serpent Trail 走路 vlog（150–180 段素材 → 初剪 15 min → 终版 10 min + 每 10 分钟约 50 处音频缝合）](notes/video/case-serpent-trail-walkvlog-10min-20261114.md) — 一句话结论：这条 10 分钟走路 vlog 真正值得抄的不是节奏，是「工序」——素材 150–180 段先花一整天看完，剪到 15 分钟，再砍到 10 分钟；而… `growing`
 - [案例拆解 · 14 分 20 秒土耳其黑海徒步片（9 版迭代 / 373 个画面片段 / 音乐覆盖率从 1/5 升到 4/5 后刀数 +76%）](notes/video/case-turkiye-blacksea-14min-20261117.md) — 一句话结论：同一批素材、同一位作者，只把音乐覆盖率从「1/5」提到「4/5」，画面片段就从 247 个涨到 373 个、片长反而从 16:40 缩到 14:20… `growing`
@@ -84,6 +85,7 @@
 - [案例拆解 · HAYDUKE 四集徒步纪录片（20TB / 4 机位 / 首剪长片后把时长翻倍 / 生死段 60 秒不切）](notes/video/case-hayduke-thruhike-4part-20261118.md) — 一句话结论：在「观众等结果」的段落里，最长的一刀可以到 60 秒、且不加音乐——密度是开场段与信息段的工具，不是全片的工具；片长也不是目标，而是结构定完之后的余… `growing`
 - [案例拆解 · Tyler Fox《The Pacific Crest Trail in Three Minutes》（142 天 / 每天 1 秒 / 3 分钟）](notes/video/case-pct-onesec-3min-20261123.md) — 一句话结论：这条片把「密度」和「切点数」拆成了两个可以分开拧的旋钮——两版成片切点总数一模一样（≈142 刀，一天一刀），片长从 7:06 砍到 3:00，密度… `growing`
 - [案例拆解 · 《Walk Pro》云南 1800 km 旅行短片（80 镜 / 每镜 4 拍 / 切点全落在运动模糊处）](notes/video/case-yunnan-walkpro-1800km-20261121.md) — 一句话结论：这条片子把「节奏」整个前移到了拍摄端——不是先拍再按音乐切，而是开机前就定好"每镜 4 拍、按左旋/左甩/右甩/上甩/下甩依次运动"，80 个镜头的… `growing`
+- [案例拆解 · 《奔跑吧大叔》新疆旅行记录（12 集 × 5–6 分钟 / 单集 8 小时素材 / 四级压缩）](notes/video/case-paodabashu-xinjiang-6min-20261124.md) — 一句话结论：这是一条「成片被平台锁死、素材按天累积」的样本——单集 8 小时素材压成 5–6 分钟，压缩比 67–96:1，和 11-12 那条徒步集锦的 86… `growing`
 - [案例拆解 · 沙坡头沙漠旅拍 3 分钟成片（3 min / 100 镜 / 500+ 段素材 / 前 10 秒黄金窗口）](notes/video/case-ningxia-desert-travelfilm-3min-20261120.md) — 一句话结论：一条 3 分钟的旅拍成片，职业旅拍师给的是「100 个镜头 + 500 多段素材」——也就是 1.8 秒/镜、33 刀/分、5 条素材出 1 镜；这… `growing`
 - [案例拆解 · 阿鼻貓ABCat《山系玩樂誌》20 分钟行山综艺片（4–6 h 素材 / 数十个分镜 / 2 天一条）](notes/video/case-abcat-hiking-20min-20261122.md) — 一句话结论：这条 20 分钟的行山片，4–6 小时素材压到 20 分钟（9–18:1，落在拣选型中位），却只花 2 天剪完——比同为 10 分钟量级的 case… `growing`
 - [案例拆解 · 香港行山频道 Joyee Walker（3–5 分钟路线片 / 4 小时全程单镜被判「不可剪」/ 开机点即切点）](notes/video/case-joyee-hk-hiking-3to5min-20261119.md) — 一句话结论：素材能不能剪，不取决于拍了多少，取决于每段素材内部有没有「事件边界」——同一个人、同一座山，全程开着 GoPro 录满 4 小时，被作者自己判定「压… `growing`

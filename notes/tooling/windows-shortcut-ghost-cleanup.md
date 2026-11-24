@@ -101,3 +101,4 @@ powershell -ExecutionPolicy Bypass -File "D:\AI\WorkBuddy\tools\applist-audit.ps
 
 - [[deepseek-harness-desktop-install]] — 同批 Windows 环境治理笔记
 - [[raven-install-windows-native]] — 同为 Windows 工具链排障，共享"只读探测 + 逐条实测"的方法
+- [[windows-tdr-bugcheck-0x116-20261124]] — 同机另一类"看起来像硬件故障"的排障：意外重启定到显卡驱动 TDR 恢复失败
